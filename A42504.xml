@@ -1,0 +1,958 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Al-Man-Sir, or, Rhodomontados of the most horrible terrible and invincible Captain Sr. Fredrick Fight-all English and French.</title>
+            <author>Gaultier, Jacques.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1672</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 83 KB of XML-encoded text transcribed from 55 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A42504</idno>
+            <idno type="STC">Wing G381</idno>
+            <idno type="STC">ESTC R37393</idno>
+            <idno type="EEBO-CITATION">16438577</idno>
+            <idno type="OCLC">ocm 16438577</idno>
+            <idno type="VID">105398</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A42504)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 105398)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1093:6)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Al-Man-Sir, or, Rhodomontados of the most horrible terrible and invincible Captain Sr. Fredrick Fight-all English and French.</title>
+                  <author>Gaultier, Jacques.</author>
+               </titleStmt>
+               <extent>[2], 12, [6], 13-98 p., [1] leaf of plates : ill.  </extent>
+               <publicationStmt>
+                  <publisher>Printed by Peter Lillicrap for Philip Briggs ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1672.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Attributed to Gaultier by Wing.</note>
+                  <note>English and French on opposite pages.</note>
+                  <note>Reproduction of original in the Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-11</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2012-11</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:105398:1"/>
+            <pb facs="tcp:105398:1"/>
+            <p>Al-Man-Sir OR, RHODOMONTADOS OF THE Moſt Horrible Terrible and Invincible CAPTAIN S<hi rend="sup">r</hi> Fredrick Fight-all.</p>
+            <p>
+               <hi>Engliſh</hi> and <hi>French.</hi>
+            </p>
+            <q>
+               <hi>Flectere ſi nequeo Superos, Acheronta movebo.</hi>
+            </q>
+            <q>
+               <l>If that the Gods wont lend an ear, then Hell</l>
+               <l>Shall quake when I my dreadful ſtories Tell.</l>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>Peter Lillicrap,</hi> for <hi>Philip Briggs</hi> living in Mermaid Court at the lower end of <hi>Pater-noſter-row.</hi> 1672.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:105398:2"/>
+            <pb facs="tcp:105398:2"/>
+            <head>The moſt incomparable Sir Frederick Fight-All to the Reader.</head>
+            <opener>
+               <salute>Reader,</salute>
+            </opener>
+            <p>I Suppoſe thee both Noble and Va<g ref="char:EOLhyphen"/>liant, or elſe thou would'ſt not preſume to handle this Book, or hazard thy underſtanding in reading ſuch, and ſo many prodigious At<g ref="char:EOLhyphen"/>chievements contain'd therein. To hear of thouſands killing thouſands, is no more then the death of one man by ano<g ref="char:EOLhyphen"/>ther, but for a ſingle perſon to ſlay a thou<g ref="char:EOLhyphen"/>ſand,
+<pb facs="tcp:105398:3"/> and they all <hi>Emperours, Kings,</hi> and <hi>Princes</hi> is a work impoſſible for any but me Sir <hi>Frederick Fight-All:</hi> I can out-do, what e're was heretofore accounted Fabulous, and incredibly dangerous; were the <hi>Centaure</hi> living, I would make him crawl away upon his Hands for ſafety, leaving his Headleſs <hi>Horſe</hi> a ſacrifice to my Fury. O that I could but ſee whe<g ref="char:EOLhyphen"/>ther one of the <hi>Cadmean Race</hi> durſt peep his Head above ground, I would quickly make him hide himſelf in the next cavern to the Center. This may be prou'd, and more, from what I have done, the truth whereof, if any are ſuch impudent Infidels as to queſtion, let them be ramm'd through the body of the Earth, that the <hi>Antipodes</hi> may ſatiſfie their unbelief.</p>
+            <p>It is a thing for <hi>School boys</hi> to admire a <hi>Garagantua,</hi> a <hi>Mandevill,</hi> a <hi>Scare-crow Drake,</hi> with puny deeds of <hi>Chivalry,</hi> poor <hi>Pigmy-Crane oppugnors!</hi>
+            </p>
+            <p>
+               <hi>Let</hi> Mars <hi>and</hi> Hercules <hi>aſtoniſht ſtand,</hi>
+            </p>
+            <p>
+               <hi>Hearing the direful deeds of my right hand.</hi>
+            </p>
+            <pb facs="tcp:105398:3"/>
+            <p>Methinks I could unhinge the <hi>Poles,</hi> and were they not too big to graſp, I would tear the World to Raggs. It hath been hither<g ref="char:EOLhyphen"/>to for the ſake of my own Country, (which <hi>Cannibals</hi> admire for giving me breath) that I did not wiſh (as <hi>Archimedes</hi> did, that <hi>Rodamontado</hi> Kickſhaw compar'd to me) that I might find ſome other Footing, than what is common to Mortals, that I might twirle the giddy Inhabitants of this World into a perpetual motion.</p>
+            <q>
+               <l>Many ſuch trifles I'me aſham'd to own,</l>
+               <l>Which are but foyls to deeds which I have done.</l>
+            </q>
+            <p>Let it ſuffice to give you an account why <hi>I</hi> deſcribe my own Heroick Actions, and not leave it to the care of my admi<g ref="char:EOLhyphen"/>rers: <hi>Caeſar</hi> writ the <hi>Commentaries</hi> of his own victorious Life, then why ſhould not I write <hi>mine; He</hi> was afraid ſome de<g ref="char:EOLhyphen"/>tracting <hi>Writer</hi> might leſſen his Worth to men, but my Fear is they would over-va<g ref="char:EOLhyphen"/>lue
+<pb facs="tcp:105398:4"/> mine to the <hi>Gods,</hi> and ſo by jealouſie incenſe their <hi>Deities,</hi> to whom I ſhall ever bear an <hi>amicable reſpect,</hi> whilſt I am the <hi>Bulwork</hi> of <hi>Chriſtendom,</hi> and the moſt Invin<g ref="char:EOLhyphen"/>cible</p>
+            <closer>
+               <signed>Sir <hi>Frederick Fight-All.</hi>
+               </signed>
+               <dateline>
+                  <hi>From</hi> Hercules <hi>Pillars</hi> 
+                  <date>
+                     <hi>the</hi> 5th. <hi>of the Month</hi> Javan.</date>
+               </dateline>
+            </closer>
+            <pb facs="tcp:105398:4"/>
+         </div>
+         <div type="illustration">
+            <pb facs="tcp:105398:9"/>
+            <p>
+               <figure/>
+            </p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:105398:9"/>
+            <head>To the Elli-mi-hammi-ram<g ref="char:EOLhyphen"/>mi-ziragian Elixir, and Deuſnoetous Rhapfodiſt of Enigmaticall and occult Fancy, Captain <hi>Robert</hi> (alias Jack) <hi>Pommell,</hi> Me<g ref="char:EOLhyphen"/>tropolitan Hydro-mel-mercurialiſt of <hi>Fleet-ſtreet.</hi>
+            </head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>
+               <hi>I</hi> Implore your pardon on the flexed knees of that grand reſpect which I muſt ſhow diurnally, and owe you diuturnally for this Pyramidall preſumption of obſtetricating this
+<pb facs="tcp:105398:10"/> Gygantick Birth, under your <hi>Pegaſian,</hi> or ra<g ref="char:EOLhyphen"/>ther <hi>Helliconian</hi> Patr<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>age.</p>
+            <p>Your raſh Negation will but irritate <hi>Al-Man-Sirs,</hi> and my juſt paſſion, in denying that Protection, which the Gods have courted us to accept under the Heaven-ſpreading lofty Wing of <hi>Joves</hi> Eagle, when ſhe ſits abrood on a Cloud to hatch <hi>Lightning</hi> and <hi>Thunder,</hi> with which her Maſter doth <hi>Tonnitruate</hi> and <hi>Fulminate</hi> the aff<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ighted inhabitants of the <hi>Univerſe</hi> in<g ref="char:EOLhyphen"/>to a <hi>Non-entity</hi> of rational Intelligence.</p>
+            <p>That <hi>Pallas</hi> was the product of <hi>Jupiters</hi> Head-ach, <hi>Manu-ducted</hi> into the Society of Celeſtial exiſtencies, by <hi>Vulcanian Midwifry,</hi> is an opinion not to be oppoſed, if we believe, no Fabulous dotage in <hi>Veterane Parnaſſites,</hi> or <hi>Hypocrenians:</hi> but who the Goſſips were to this Jovial <hi>Off-ſpring,</hi> comes not within the vierge of our <hi>ſtrickteſt</hi> indigation, if none; a great overſight in the Gods to act a<g ref="char:EOLhyphen"/>gainſt approved cuſtome.</p>
+            <pb facs="tcp:105398:10"/>
+            <p>To avoid which errour (for it ſeems the God<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> of old, were ſubject thereunto as well as Mortals) I have <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>udiciouſly elected you as Godfather for the <hi>Recipr<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>cal</hi> Reputation of you both; your lofty expreſſions, and <hi>Al-Man-Sirs</hi> loud actions, having already timpani<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>'d Fames Cheeks into the danger of a Rupture. For at the <hi>Inauguration</hi> of your vulgar-non-intelligible-inviſible conceits (inviſible I call them, becauſe they ſoar out of the ken of dim-ſighted Mortality) <hi>Opht<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>olmick</hi> Fame ſtood on Tip Toe, ready for the Wing, who, as ſoon as ſhe heard you named, commenc'd her Com<g ref="char:EOLhyphen"/>miſſion thence, and flew firſt through <hi>Englands Metrapol<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s,</hi> in all the ſecret receſſes thereof, then to its adjacent <hi>Suburb<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>carians,</hi> and in all places, with her Trumpet ſounded the harmonious Levets of <hi>P<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>mm<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>llian Eulo<g ref="char:EOLhyphen"/>gies.</hi>
+            </p>
+            <p>And that your Cheek may not ſeem to bor<g ref="char:EOLhyphen"/>row tincture from <hi>Aurora's</hi> complection, for Patronizing what cannot claim deſert, or me<g ref="char:EOLhyphen"/>rit
+<pb facs="tcp:105398:11"/> know, that <hi>Al-Man-Sir</hi> may boaſt of as much Deity as <hi>Pallas,</hi> and not inferiour in <hi>Metaphyſical extraction,</hi> if you obſerve this parallel between them: <hi>Pallas</hi> proceeded from <hi>Joves</hi> Head, <hi>Al-Man-Sir</hi> from <hi>Mars</hi> h<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s Buttocks, by a ſlaſh in Battail, the firſt and Virgin cut of that bloody, yet bawdy Cornuter, thus you ſee he was begot by a Sword, conceived in a wounds Womb, and <hi>obſtetticated,</hi> with the blood which flowed from the profundity thereof. Both their Genitors were Deities, yet differ in this, one is of the upper houſe, the other of the lower.</p>
+            <p>My final, and ultimate requeſt is, that you, being placed in the <hi>Zenith</hi> of ſublime fancy, will ſo inſtruct this Stripling, that he may no<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> fall into the <hi>Nadit</hi> of low, and popular ex<g ref="char:EOLhyphen"/>preſſion; cloath his underſtanding out of your Wardrope of hard words, ſuch, ſo difficile, long, and Syllabically extended, that each word may require an half hour in the pronunciation; and when delivered and ſtretcht out, a whole
+<pb facs="tcp:105398:11"/> league by the chain in length, and let them have ſo inſufferable a ſound, they may as in<g ref="char:EOLhyphen"/>fallibly kill, as Cannon-ſhot at the ſame di<g ref="char:EOLhyphen"/>ſtance. This will be a great eaſe to <hi>Al-Man-Sirs</hi> hands, and feet; the one will not be trou<g ref="char:EOLhyphen"/>bled to foot out their Revenge, nor the other to hack and hew out the way, if his tongue, by your help may be furniſhed with words ſhall kill, as ſure as his Sword, by this means, that, with his Battoon, will have ſome reſpit from their bloody Sweats, and labours, and for the eaſe you give thoſe dreadful Executioners, their Maſter ſhall give you the Turn-over of their future Service, and I ſhall dayly pay you the tribute of my juſt admiration, whilſt I am known to be,</p>
+            <closer>
+               <signed>R. H.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div xml:lang="eng" type="text">
+            <pb n="6" facs="tcp:105398:5"/>
+            <head>RHODOMONTADO'S</head>
+            <p n="1">
+               <label>I.</label> WHen I came into the World <hi>Mars</hi> (the God of War) did ſit aſtride my Shoulders, <hi>Hercules</hi> was at my Right Hand, and <hi>Samſon</hi> on my Left. <hi>Atlas</hi> at my Thighs, <hi>Mercury</hi> on my Head, <hi>Venus</hi> in my Eyes, <hi>Cupid</hi> in my countenance, <hi>Nero</hi> in my Heart, <hi>Jupiter</hi> in all my Body. In ſuch ſort that when I walk't it was with ſuch wonderful Force and Strength I cauſed the Earth to tremble, the Heavens were aſto<g ref="char:EOLhyphen"/>niſht, the Wind ceaſt, the Sea became calm, Women big with child miſcarried, Men in general every where fled before me, and the moſt valiant and couragious, ſeeing me cryed out one and all: <hi>Libera me Domine.</hi>
+            </p>
+            <p n="2">
+               <pb n="8" facs="tcp:105398:6"/>
+               <label>II.</label> I Swear— Villain if I come there, I will give thee ſuch a blow with this battoon, it ſhall drive thee ſix foot within the Earth, ſo that there ſhall nothing remain of thee above it, but thy right hand to put off thy Hat when thou ſhalt ſee me paſs that way.</p>
+            <p n="3">
+               <label>III.</label> CErtainly when I conſider how many graces Fortune hath endued me with, I have not time ſufficient for ſo many conſiderations: For in the firſt place ſhe hath heaped on me force, and overwhelmed me with ſtrength, ſhe hath quallified me with courage to the leaſt puncti<g ref="char:EOLhyphen"/>lio, and hath form'd and faſhion'd me out of the greateſt vallour. So that I am as a Colomn in <hi>France,</hi> a Baſtion in <hi>Spain,</hi> a Fortreſs in <hi>Italy,</hi> a Caſtle in <hi>England,</hi> a Cittadel in <hi>Germany,</hi> a Tower in <hi>Poland,</hi> a Rock in <hi>Armenia,</hi> a Wall in <hi>Denmark.</hi> To be ſhort I am generally better quallified then all the men in the world, being a refined mettal taken out of the bowels of the fat of the Earth and conceived by generoſity.</p>
+            <p n="4">
+               <pb n="10" facs="tcp:105398:7"/>
+               <label>IV.</label> I Swear by the bones of the Sun it is as impoſſible for my right hand to ſtrike any with my Battoon, and not to kill, as for the Sun to ceaſe from running his dayly courſe through the Heaven.</p>
+            <p n="5">
+               <label>V.</label> TRuly (and witout ſwearing by the beard of my great Grandfather) I do not believe there is any thing in the whole world, which can equal the horrible, dread<g ref="char:EOLhyphen"/>ful and furious terribility of my courage. And what is there think you in the whole world which will not honour and obey me, if ſo that <hi>I</hi> can make the earth tremble, the Heavens afraid, the Stars to diſappear, the ſavage beaſts of lofty Mountains, and crag<g ref="char:EOLhyphen"/>gy Rocks to hide themſelves therein. And moreover the birds which people the Airy Region, the Fiſh whoſe Kingdom is the ſea, and men the moſt valiant and couragious, with one ſole angry glance of my eye, <hi>I</hi> re<g ref="char:EOLhyphen"/>duce them to the Chaos of their firſt prin<g ref="char:EOLhyphen"/>ciples.</p>
+            <p n="6">
+               <pb n="12" facs="tcp:105398:8"/>
+               <label>VI.</label> GO to my Cook, and tell him, it is my command that he ſpit me immed<g ref="char:EOLhyphen"/>ately a dozen and half of Demicannon, lar<g ref="char:EOLhyphen"/>ded with Pi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>es, Muskets, and Halberds, which <hi>I</hi> have taken from my enemies in pitcht Battles, and let there be the Ban<g ref="char:EOLhyphen"/>deleers of a Foot-company to hang about inſtead of Saſſages, having done this, let him put over the Grid-Iron, and broil me three or four dozen of Carbines, with a ſcore or two of pocket Piſtols, fryed with Brim<g ref="char:EOLhyphen"/>ſtone, and Salt-peeter ſauce, and then come and ſup with me, for this is the Food which I am accuſtomed to feed on.</p>
+            <p n="7">
+               <pb facs="tcp:105398:12"/>
+               <pb n="14" facs="tcp:105398:13"/>
+               <label>VII.</label> I Am King of <hi>Paladins,</hi> the terrour of the World, the flower of the Nobility of <hi>Rhodomontado's, Furioſo's, Superboſo's, Ro<g ref="char:EOLhyphen"/>lands,</hi> and <hi>Olivers,</hi> beautified with infinite Graces, fait as an Angel, the heart and courage of <hi>Lucifer,</hi> a Servant to the mighty Queens of the Earth, a Friend to di<g ref="char:EOLhyphen"/>ſtreſſed Ladies, and the Soveraign Prince of the Anthropophagi or Man-Eaters.</p>
+            <p n="8">
+               <pb n="16" facs="tcp:105398:14"/>
+               <label>VIII.</label> ONe day in battle I found out the Queen of the <hi>Amazons,</hi> ſhe ſeeing me reſolved that I ſhould fall by no other hand than that of ſo great and mighty a Queen, and thereupon raiz'd her hand with her Sword therein, but I not willing to looſe any time ſtruck her, at which ſhe fell to the Earth; then taking her by the hair of the head I threw her with ſuch fury and force that ſhe flew to the fifth Heaven, and fell upon <hi>Mars</hi> as he was ſporting with <hi>Venus,</hi> the fall of whom broke his head. <hi>Venus</hi> being greatly afraid cryed out for help, at whoſe cry the Gods came running to her aid, but were much aſtoniſht when they ſaw <hi>Mars</hi> ſtretcht out upon the place. Hereupon <hi>Jupiter</hi> thruſt his head through the caſement, and ſaw me diſtri<g ref="char:EOLhyphen"/>buting wounds among my enemies with ſo much anger and fierceneſs that the fire which flew from every blow, reſembled another <hi>Mont-Gibel</hi> or <hi>Aetna:</hi> Therefore <hi>Jupiter</hi> ſaid to all his Brother Gods that none of them ſhould ſtir or make any further noiſe of what was done, ſince it might be ſuppoſed, that he which had killed <hi>Mars</hi> the God of War, was every whit as able to kill the reſt of the Gods which yet remained living.</p>
+            <p n="9">
+               <pb n="18" facs="tcp:105398:15"/>
+               <label>IX.</label> HAve a care Sits, ſtand back there at a diſtance, till <hi>I</hi> have put on my Cloak, for the very wind that comes from the bare Cape thereof is ſufficient to fan yee five hundred leagues diſtant from the <hi>Pyrenean</hi> Mountains.</p>
+            <p n="10">
+               <label>X.</label> JF my Sword could expreſs what wonders it hath done, yet w<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uld it want time to diſcover all. What is it if not that, which hath peopled all the Church-yards in the Univerſe? What is it, if not my <hi>Toledo</hi> which hath inricht the Chyrurgeons of this Terreſtial Globe? What is it that hath ſent ſo many continually to the Sword-cutlers? What is that which hath cut in peices the beſt coat of Mail? What is that which ſo derides the Bucklers of <hi>Barcelona,</hi> which hews the cabaces of <hi>Calatayud</hi> if not my Sword. For it did cut the Head-peece vizors of <hi>Almazen</hi> with as much eaſe, as if they had been made of a Melon or Cucum<g ref="char:EOLhyphen"/>ber.</p>
+            <p n="11">
+               <pb n="20" facs="tcp:105398:16"/>
+               <label>XI.</label> THeſe twenty years my Sword hath provided for me, by which I am feard of men and beloved of Women.</p>
+            <p n="12">
+               <label>XII.</label> ONe told me that the Grand Seignor had committed lately great ſlaugh<g ref="char:EOLhyphen"/>ters among the Chriſtians depriving them in a barbarous manner of their Legs and Arms, but if I come there, I ſhall ſoon cool his courage, for I know by the living bones of my Father, he will no ſooner ſee m<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, but he will lay on his own life violent hands, to avoid falling into mine.</p>
+            <p n="13">
+               <pb n="22" facs="tcp:105398:17"/>
+               <label>XIII.</label> WHen I ſpeak my voice penetrates the depths of Hell, where ever I appear, the World offers me a free ſubjection from Eaſt to Weſt. It is well known, that where ever I am my Bedſtead is made of the ribs of Giants, the ticking of my bed is filled with the Mouſta<g ref="char:EOLhyphen"/>cho's of the Maſters of the Camp to the Grand Turk, my Bolſter with the Brains which I boxt out of the heads of his Captains, my cloaths are made of the Hair of <hi>Amazons,</hi> my coverlids are compoſed of <hi>Switzers</hi>-beards, my curtains of the hair of the eye-brows and eye-lids of <hi>Hun<g ref="char:EOLhyphen"/>garians</hi> and <hi>Germans,</hi> and the wall of my lodging is built not only with the pieces of Head-peeces but the entire heads of the ſtandard bearers to the Queen of <hi>England,</hi> which I lopt off with my dreadful and formidable Sword, the floor of my houſe inſtead of Brick is paved with <hi>Janazaries</hi> Teeth, my tapiſtry are the skins of <hi>Arabians</hi> and Sorcerers whom I unbarkt with the point of my Dagger, the tiles which cover my houſe are the nails of Monarchs and Kings, whoſe bodies long ſince in deſpight of them and thoſe miſe<g ref="char:EOLhyphen"/>rable carcaſſes they indeavoured to defend, with a kick of my Foot I tumbled into their ſe<g ref="char:EOLhyphen"/>pultures.</p>
+            <p n="14">
+               <pb n="24" facs="tcp:105398:18"/>
+               <label>XIV.</label> SCorning to draw my Sword againſt a bravado <hi>Engliſh</hi> Captain, I gave him ſuch a kick in the breech, that he mounted into the Air and knockt his head againſt the Sun with ſuch great force, that he was the cauſe of it's Eclipſe for five days; im<g ref="char:EOLhyphen"/>mediately this Captain kneel'd before <hi>Ju<g ref="char:EOLhyphen"/>piter,</hi> praying him to pardon me all my offences, in recompence of the kindneſs I had done him, by that kick of the Arſe I had given him, which ſent him to Heaven a<g ref="char:EOLhyphen"/>mong the Stars, ſince it lay in my power to ſend him as far (a contrary way) to Hell among the damned.</p>
+            <p n="15">
+               <label>XV.</label> WIth one ſingle hair of my Mouſtachos which I will dart at thee, I will make ſo great a gap in thy body that the whole Infantry of <hi>Spain,</hi> and Cavalry of <hi>France</hi> ſhall be able to paſs through with<g ref="char:EOLhyphen"/>out touching either the one ſide of thee or the other.</p>
+            <p n="16">
+               <pb n="26" facs="tcp:105398:19"/>
+               <label>XVI.</label> LAdy of my heart command me ſome<g ref="char:EOLhyphen"/>thing which belongs to my Profeſſi<g ref="char:EOLhyphen"/>on, for I ſwear to you by the great ſnaggy Tooth of <hi>Cerberus,</hi> to defye for your ſake ten men together, and would ſcorn to flye, came there as many more. Command me to kill one, two, three, four, fifty, or ſixty perſons: to cut off the Legs, Arms, or gaſh the Face of any one that dares e<g ref="char:EOLhyphen"/>qual her ſelf to you, for theſe things ſhail be ſooner done then commanded.</p>
+            <p n="17">
+               <pb n="28" facs="tcp:105398:20"/>
+               <label>XVII.</label> WIth this moſt redoubted Sword, I ruine, I ſet on fire, and put all into a flame, tryumphing over Armies, laying waſt Cities, Caſtles, Towers, Walls, and invincible Fortreſſes. With my preſence I make <hi>Jove</hi> hide himſelf, <hi>Mer<g ref="char:EOLhyphen"/>cury</hi> fly, <hi>Cupid</hi> tremble, <hi>Mars</hi> diſguize and tranform himſelf, and make him ſtand and ſeeme take the Tribute, which <hi>Venus</hi> gives me, to let him know and ſee, I'me more her Gallant now than He.</p>
+            <p n="18">
+               <pb n="30" facs="tcp:105398:21"/>
+               <label>XVIII.</label> WHere ever I am Death is continu<g ref="char:EOLhyphen"/>ally with me, becauſe he finds more profit from me, then if he were Ge<g ref="char:EOLhyphen"/>neral of one hundred thouſand men to fight the Turk or Devil. He knows it well and therefore continually follows and accom<g ref="char:EOLhyphen"/>panies me in the conqueſt of the Kingdoms of the <hi>Grimanians, Dicenians, Dinamians, Alopitiars Pitanians</hi> and <hi>Eſpinomenians,</hi> ſo that to ſp<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ak the truth, without his com<g ref="char:EOLhyphen"/>pany <hi>I</hi> ſhould walk alone, becauſe <hi>I</hi> find none like me, and none <hi>I</hi> like but him.</p>
+            <p n="19">
+               <pb n="32" facs="tcp:105398:22"/>
+               <label>XIX.</label> AS the World is divided into four parts three whereof <hi>Africa, Aſia,</hi> and <hi>Eu<g ref="char:EOLhyphen"/>rope,</hi> and theſe three are incompaſſed and environed by the Sea, ſo my heart is di<g ref="char:EOLhyphen"/>vided into three other parts, of a Nature affable, terrible, and cruel, and theſe three parts are ſurrounded not with Water, but with living Flames of ſcorching fire. And as the fire is, ſo is (by reaſon of Love) my heart, by which means I am ſo intaged that with three blows of this my good chop<g ref="char:EOLhyphen"/>ping blade, the fore-ſtroke, back-blow, and thruſt, I could ſlay all mankind, ma<g ref="char:EOLhyphen"/>king Rivers of blood longer then Ganges, broader then the <hi>Po,</hi> and more terrible then the Cataracts of <hi>Nile.</hi> But the World may be thankful <hi>I</hi> am in love, for but a little while before I was ſo, I kil'd every day for a whole Month, three or our do<g ref="char:EOLhyphen"/>zen perſons, and but even now I kil'd more than half a ſcore, only to ſhow the greatneſs of affection to my Miſtreſs.</p>
+            <p n="20">
+               <pb n="34" facs="tcp:105398:23"/>
+               <label>XX.</label> I Have in me the nature of a Baſalisk and ſomething more; for if he with his looks can kill one, I when angry with mine, can deſtroy an hundred, as if my eyes were Cannon Chain ſhot.</p>
+            <p n="21">
+               <label>XXI.</label> IF that true valour which my ſoul poſſeſſeth could be purchaſed by Money, all Traffick would ceaſe by Sea and Land, and no more talk of Merchants or their commodities. For eve<g ref="char:EOLhyphen"/>ry one would then labour and imploy their in<g ref="char:EOLhyphen"/>duſtry to the utmoſt, who ſhould get the great<g ref="char:EOLhyphen"/>eſt ſhare in me, one would aim at one of my Arms, another a Leg, one a Finger, a fourth a Nail, a fifth a Hair of my eye-lids, and this to no other end, than that he might become va<g ref="char:EOLhyphen"/>liant. But I rejoyce that this cannot be by a<g ref="char:EOLhyphen"/>ny means affected, becauſe it is one of the greateſt cauſes of the very great repoſe and quiet of all thoſe Kings, Monarchs, and Prin<g ref="char:EOLhyphen"/>ces, which are all my very good friends.</p>
+            <p n="22">
+               <pb n="36" facs="tcp:105398:24"/>
+               <label>XXII.</label> WHo is ſo ſhameleſly impudent, as not to fall in love with this ſtrong thigh of mine, with this powerful arm, with this breaſt, ſtuft with valour and courage, with this face, fairer and more pleaſant than that of <hi>Ganimede, Dido,</hi> or <hi>Abſalon.</hi>
+            </p>
+            <p n="23">
+               <label>XXIII.</label> MY Bawd, my old Whore Fortune, gave me ſome offence; ſo that I be<g ref="char:EOLhyphen"/>came more diſpleaſed with her than for<g ref="char:EOLhyphen"/>merly, ſhe was beloved by me, in ſo much that if ſhe performed not her Articles with me, I ſwore by <hi>Pluto's</hi> Horns, by the beard of <hi>Mars,</hi> by <hi>Samſons</hi> Whiskers, and by <hi>Mahomets</hi> Alcoran, that I will deprive her of her Prerogative of mutability, and in<g ref="char:EOLhyphen"/>conſtancy, and as to her body, with one ſhock I will diſpatch her to <hi>Terra Incog<g ref="char:EOLhyphen"/>nita,</hi> her Limbs ſo ſhatter'd, that at the very inſtant of her arrivall thither, ſhe ſhall be reduced to powder, which ſhall be by ſome or other gather'd and preſerved for my uſe, that is, to throw as duſt or Sand on thoſe Letters I ſend to my Miſtreſs.</p>
+            <p n="24">
+               <pb n="38" facs="tcp:105398:25"/>
+               <label>XXIV.</label> I Have in two days more augmented the Stigian Kingdom of <hi>Pluto,</hi> and peo<g ref="char:EOLhyphen"/>pled with Subjects his black, dark, and ſmoaky Realm, then ever did <hi>Rodomont, Rolant, Renand, Mandrigard</hi> and <hi>Radaman<g ref="char:EOLhyphen"/>te,</hi> having made the hearts of more valiant and couragious men in a thouſand and a thouſand places to tremble; let thoſe which inhabit the Eaſt, Weſt, North and Equa<g ref="char:EOLhyphen"/>noctial Line be my Witneſſes.</p>
+            <p n="25">
+               <pb n="40" facs="tcp:105398:26"/>
+               <label>XXV.</label> THe great Turk is much afraid of my valour, for my Arm hath given him to know more than ten Armies joyn'd to<g ref="char:EOLhyphen"/>gether: for being one day in the War of the <hi>Venetians</hi> againſt the Grand Seignor, I gave <hi>Abenhamet</hi> Maſter of the Camp ſo great a blow that I ſt<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uck his Head off his Shoulders, with the ſtroke it immediately hopt to <hi>Conſtantinople,,</hi> carrying thither the news of the loſs of the Turkiſh Army. When the Inhabitants of that great City, ſaw the Head without a Body, they all fled into their houſes, making faſt their doors, with ſuch dread none would ven<g ref="char:EOLhyphen"/>ture to ſtir out in ſix years for fear of me, till that I according to my accuſtomed mag<g ref="char:EOLhyphen"/>nificence gave them permiſſion to appear abroad and walk as they were wont to do, which accordingly was performed.</p>
+            <p n="26">
+               <pb n="26" facs="tcp:105398:27"/>
+               <label>XXVI.</label> WHen <hi>I</hi> walk in the ſtreets of the City a thouſand Ladies run to meet me; one takes me violently by the Cape of my Cloak, another gives me a wink, another beſeecheth me to ſup with her, another makes me a preſent, another kiſſeth my hands, and bleſſeth that Mother that brought me into the World, adjudging her ſelf the happieſt of Women, may ſhe have the opportunity of lying with me but one night, to no other end, then that ſhe may have a child of the race, of ſo great and worthy a perſonage as my ſelf.</p>
+            <p n="27">
+               <pb n="44" facs="tcp:105398:28"/>
+               <label>XXVII.</label> IF the force of my members was diſtri<g ref="char:EOLhyphen"/>buted among faint hearted perſons, and ſeditious Spirits, the World would be put into a general revolt, and nothing would be ſeen therein, but Battles, and Conqueſts; the Bells never heard, day nor night, but for the interment of ſome dead body. Chy<g ref="char:EOLhyphen"/>rurgeons would never ſtir out of their hou<g ref="char:EOLhyphen"/>ſes, but to heal the wounds of Swords, cut and thruſt, and to reunite Fractures or bones broken. Divines would be continualy employed in comforting Widdows for the loſs of their Husbands, Children for the loſs of their Parents, and young Women in the death of their Sweet-hearts.</p>
+            <p n="28">
+               <pb n="46" facs="tcp:105398:29"/>
+               <label>XXVIII.</label> BY the ſtately gravity of my Fore-fathers, I cannot but laugh when I think on the ig<g ref="char:EOLhyphen"/>norance of the Gods in Deifying <hi>Hercules,</hi> and giving him the appellation of one of them, cal<g ref="char:EOLhyphen"/>ling him God, and this only becauſe he ſlew an <hi>Hydra,</hi> twiſted an Horn out of a <hi>Bulls-head,</hi> cut in pieces a <hi>Dragon,</hi> overcame a <hi>Lyon,</hi> and deſtroyed the <hi>Centaure</hi> and fierce <hi>Boars.</hi> Becauſe through fear he made the <hi>Harpies</hi> to flye, and killed <hi>Cete</hi> and <hi>Achelois,</hi> conquered <hi>Diomelles</hi> King of <hi>Thrace,</hi> and defeated <hi>Gereone</hi> Queen of the <hi>Amazons,</hi> and laſtly becauſe he erected thoſe Colomns which are now called <hi>Hercules Pillars.</hi> In effect theſe things are nothing but meer fa<g ref="char:EOLhyphen"/>bles, and the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ctions of young Girls compared with m<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> f<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rce and courage, who had neither the puiſſance of <hi>Da<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ius</hi> King of the <hi>Perſians,</hi> nor of <hi>Alexand<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </hi> the great; nor of <hi>Samſon</hi> the ſtrong, nor the powerfulneſs of the <hi>Trojan Hector,</hi> nor of valiant <hi>Achilles,</hi> nor of <hi>Roland</hi> the Furi<g ref="char:EOLhyphen"/>ous, nor of ſtout <hi>Gridace</hi> nor of ſturdy <hi>Sacri<g ref="char:EOLhyphen"/>pant<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>,</hi> nor of terrible <hi>Mandricard,</hi> nor of famous <hi>Roger,</hi> nor of ſtrong <hi>Agrican,</hi> nor of horrible <hi>Rodomont.</hi> None of theſe ever equaliz'd my horrible, formidable and invincible courage.</p>
+            <p n="29">
+               <pb n="48" facs="tcp:105398:30"/>
+               <label>XXIX.</label> IF I come to thee, with my Foot I will kick thee ſo high into the Air, that hadſt thou with thee ten Cart load of bread, thou ſhould'ſt be in greater fear of ſtarving then falling.</p>
+            <p n="30">
+               <label>XXX.</label> MY Arm trembles when I deliberate with my ſelf what to do for my Mi<g ref="char:EOLhyphen"/>ſtreſs, for continually I am thinking how I may render her content, and can never ob<g ref="char:EOLhyphen"/>tain it. The laſt night I dream't, in favour of her, I fought ten men, ſix whereof <hi>I</hi> kil'd: one of thoſe that fled which ſaved his Life, in gratitude to my mercy, cut off his Left Arm, and laid it at my Feet. But how much better ſhall <hi>I</hi> do ſuch things in the day when <hi>I</hi> am awake, if any one ſhall take the boldneſs on him to touch her ſlipper.</p>
+            <p n="31">
+               <pb n="50" facs="tcp:105398:31"/>
+               <label>XXXI.</label> ONe day playing with <hi>Deſtiny,</hi> in the preſence of <hi>Time, Fortune,</hi> and <hi>Nature,</hi> we wrangled about a Caſt, in ſuch manner, that I laid my hand on my Sword. <hi>Time, Fortune,</hi> and <hi>Nature,</hi> which were Friends to <hi>Deſtiny,</hi> interpos'd between us to keep the Peace. But <hi>I</hi> which am truly ſtout extended my Right Foot, and gave <hi>Time</hi> ſuch a kick <hi>I</hi> ſent him to the Skyes, with another <hi>I</hi> tum<g ref="char:EOLhyphen"/>bled down to the Earth; where ſhe now ly<g ref="char:EOLhyphen"/>eth; <hi>Fortune I</hi> divided in the middle, throw<g ref="char:EOLhyphen"/>ing one half of her where the Sun riſeth, and the other half where he ſets. <hi>I</hi> gave alſo <hi>Nature</hi> ſuch a back-blow, that the wound to this day is incureable, through which all the Year long iſſue Rivers of Blood.</p>
+            <p n="32">
+               <pb n="52" facs="tcp:105398:32"/>
+               <label>XXXII.</label> ONe day recreating my ſelf at Ball, I ſtruck it with ſuch force that it flew to the third Heaven, falling and trundling be<g ref="char:EOLhyphen"/>fore the Gods, which were then and there aſſembled in Councel; the one looking on the other were greatly aſtoniſht, not being able to utter one word, till ſuch time as their ſenſes were returned to them; and then they concluded it requiſite, <hi>Jupi<g ref="char:EOLhyphen"/>ter</hi> ſhould deſcend to the Earth, and kneel before me, and quitting his Scepter and Crown, ſhould humbly devote it to my ſervice, <hi>Venus</hi> ſhould proffer her ſelf to be my Chamber-maid, <hi>Mars</hi> my Laquay, and <hi>Mercury</hi> my Pander.</p>
+            <p n="33">
+               <pb n="54" facs="tcp:105398:33"/>
+               <label>XXXIII.</label> BEing deſirous <hi>Pluto</hi> ſhould pay me that tri<g ref="char:EOLhyphen"/>bute which other Kings pay me, I went ſtrait to Hell, where I found him walking, ac<g ref="char:EOLhyphen"/>companied with five hundred and forty ſix mil<g ref="char:EOLhyphen"/>lions, three hundred ninety and ſix thouſand Legions of Devils which followed him. And as ſoon as he ſaw me afar off, he immediately ad<g ref="char:EOLhyphen"/>vanced towards me to render himſelf my Pri<g ref="char:EOLhyphen"/>ſoner. Then I laid my hand on my Sword; <hi>Pluto</hi> perceiving me in a paſſion, and having known who I was fled immediately, and ſunk into the profound depths of Hell with all his Followers, commanding ſtrictly the Gates thereof to be cloſe ſhut, and lockt. I for my part reſolved to be obey'd, &amp; walking to the Gates, I ſneez'd them open, and thereupon entred. In a moment I took Priſoner, Grand <hi>Satan,</hi> Prince <hi>Pluto,</hi> and fair <hi>Proſerpine,</hi> whoſe hands I firmly bound with an hair of my Mouſtacho. Nevertheleſs ſeeing the tears they ſhed, and lamentations which they made, I made uſe of the antient magnificence of my nature, and unbinding them ſet them all at liberty.</p>
+            <p n="34">
+               <pb n="56" facs="tcp:105398:34"/>
+               <label>XXXIV.</label> I Had one day a quarrel with a <hi>French</hi> Gentleman, who defied me, ſaying, draw if thou dareſt, conſidering with my ſelf that I am all courage, refuſed ſo to do, becauſe the <hi>French</hi> being cold, and without choler, I might have given him five hundred thruſts, and as many ſlaſhes, without killing him; but as for me, who am wholly fill'd, and made up of Cou<g ref="char:EOLhyphen"/>rage and Choler, with the leaſt blow in the World, he might have ſent me to the Devil.</p>
+            <p n="35">
+               <pb n="58" facs="tcp:105398:35"/>
+               <label>XXXV.</label> BEing on a time without the Trenches of <hi>Oſtend,</hi> a Cannon-bullet entred my Mouth, looſening two of my Teeth with<g ref="char:EOLhyphen"/>out farther harm. At the ſame time being full of anger, I took the Bullet into my hand, and throwing it againſt the enemy, by chance it fell againſt a Tower on the Wall, the which by that means in a mo<g ref="char:EOLhyphen"/>ment was reduced to duſt, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>illing to the number of one thouſand fifty and five Soul<g ref="char:EOLhyphen"/>diers which guards it.</p>
+            <p n="36">
+               <pb n="40" facs="tcp:105398:36"/>
+               <label>XXXVI.</label> ON a time I entred Hell, where I found ſitting at a Table, <hi>Pluto, Proſerpine,</hi> and <hi>Death;</hi> they ſeeing me in their dark, diſmal Cell, were ſtruck with an amazing Fear, but knowing their want of Courage com<g ref="char:EOLhyphen"/>parative to mine, and to diſmiſs their Fear, without ſitting down, I preſently danc't before them a Levant, according to the <hi>French</hi> faſhion, cutting a caper ſomewhat too high, my head broke through the roof of Hell, and ſo paſt out, the noiſe whereof made <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he City of <hi>Conſtantinople</hi> to trem<g ref="char:EOLhyphen"/>ble, and tumbled into ruines, eight hun<g ref="char:EOLhyphen"/>dred and eighty five houſes in the next Town.</p>
+            <p n="37">
+               <pb n="62" facs="tcp:105398:37"/>
+               <label>XXXVII.</label> I My ſelf <hi>Hercùles, Death,</hi> and <hi>Cupid,</hi> by chance travelled one day together, each of us had his Bow and Quiver; and made a bargain, that he which ſhould do the great<g ref="char:EOLhyphen"/>eſt execution, ſhould have the greateſt Ho<g ref="char:EOLhyphen"/>nour. <hi>Hercules</hi> began firſt, and with his Bow and Arrows, killed all the Panthers, Lyons, Tigers, Bears, Wolves, Bulls, Camels, and Elephants, with all ſorts of Wild beaſts. <hi>Cupid</hi> took his Bow next, in drawing of which he made Gods, Giants, Amazons, Men, and Devils to fall up to the Ears in Love, I only excepted on whom the God of Love had no power. <hi>Death</hi> next reſolved to try what he could do, and with the flight of his Arrow killed all the Creatures on the Earth. I at laſt diſ<g ref="char:EOLhyphen"/>daining them all, and being in a very great paſſion, <hi>I</hi> reſolved to be revenged on them, ſo taking an Arrow, <hi>I</hi> ſhot and killed <hi>Death, Cupid</hi> and <hi>Hercules.</hi>
+            </p>
+            <p n="38">
+               <pb n="64" facs="tcp:105398:38"/>
+               <label>XXXVIII.</label> MAdam and Miſtreſs of my Life, be neither jealous, nor diſpleaſed, that <hi>I</hi> am ſought after, and beloved of ſo many Ladies, and Princeſſes, for in ſo doing, they but abuſe th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>mſelves and looſe their time. I do not love or affect any other but your Highneſs (dear Miſtreſs) ſince that you are indued with more beauty then <hi>Di<g ref="char:EOLhyphen"/>ana,</hi> with more graces and better meen then <hi>Pallas,</hi> with more ſweetneſs th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n <hi>Venus;</hi> diſpiſing theſe three Soveraign Goddeſſes, you are alone that proper obj<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ct, to which <hi>I</hi> dedicate my heart. Conſider then that <hi>I</hi> love you, and do not forſake me for ano<g ref="char:EOLhyphen"/>ther, ſince that <hi>I</hi> am more then a Gentle<g ref="char:EOLhyphen"/>man. And if you will be married to me, <hi>I</hi> ſwear by the Faith of a Captain, and by the Life of the King my Father (for <hi>I</hi> never knew any other name He had) to get on you the firſt night, a regiment of Souldiers, which ſhall conquer the World.</p>
+            <p n="39">
+               <pb n="58" facs="tcp:105398:39"/>
+               <label>XXXIX.</label> I Kiſs the Soles of the Feet of your Highneſs, Miſtreſs of my Heart, Princeſs of my Breaſt, Dutcheſs of both Arms, Marqueſs of my Courage, Counteſs of my Valour, Queen of my Strength; and abſolute Dame of my whole Perſon.</p>
+            <p n="40">
+               <pb n="68" facs="tcp:105398:40"/>
+               <label>XL.</label> ARriving near <hi>Conſtantinople,</hi> I under<g ref="char:EOLhyphen"/>ſtood that fifty Snips were juſt entring into the Port, I preſently betook my ſelf to a place where I might moſt commodiouſly board them, but as they approached near, <hi>I</hi> was conſtrained by a fit of a <hi>through-go<g ref="char:EOLhyphen"/>nimble</hi> to let down my breeches, and plant<g ref="char:EOLhyphen"/>ing my Globular Poſteriors towards the Water, to the intent that <hi>I</hi> might free my ſelf from that violent Chollick, which then ſeized me, I did let ſo great a Fart, that it raized as great a ſtorm as hath been ſeen on the Oc<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>an, which blew one hun<g ref="char:EOLhyphen"/>dred and fifty Veſſels, with ſuch tempeſtu<g ref="char:EOLhyphen"/>ous Fury t<gap reason="illegible" resp="#MURP" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> they were wrackt againſt the <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </p>
+            <p n="41">
+               <pb n="70" facs="tcp:105398:41"/>
+               <label>XLI.</label> IT is true <hi>I</hi> am ill clad, but it is neither careleſneſs, nor extream poverty which obligeth me to appear in this manner, but a ſolemn vow, not to buy any kind of ſtuff, to make me a ſuit, till firſt <hi>I</hi> have found one hundred and fi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ty doz<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n of the Heads of my Enemies, that they may ſerve in<g ref="char:EOLhyphen"/>ſtead of a ſet of Buttons, for my Suit, alſo the <hi>Boyaux</hi> inſtead of Lace thereon.</p>
+            <p n="42">
+               <pb n="72" facs="tcp:105398:42"/>
+               <label>XLII.</label> 
+               <hi>MArs</hi> being overjoyed to have met with me, askt if <hi>I</hi> were willing to paſs a<g ref="char:EOLhyphen"/>way the time with him at <hi>Picquet,</hi> but <hi>I</hi> an<g ref="char:EOLhyphen"/>ſwering him, that my recreations lay in more violent exerciſes, he though<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> himſelf obliged to propound to me a Game at Ball, which <hi>I</hi> accepted o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>; as he was about to find out a B<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ll for himſelf, he was ama<g ref="char:EOLhyphen"/>zed to ſee me take the Terreſtial Globe, and ſtruck it ſo violently, that it mounted almoſt to Heaven, where <hi>Jupiter</hi> being a<g ref="char:EOLhyphen"/>ſton ſht, ſent <hi>Mercury</hi> ſpeedily away to ap<g ref="char:EOLhyphen"/>prehend the cauſe of this ſudden accident, and juſt as he was deſcending, <hi>I</hi> ſt<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uck the Earth the ſecond time on the rebound, in ſuch ſort, that rencountring the meſſenger of the Gods, it broke his Noſe, he ſtriking it back to me, made it flye againſt the Face of the Moon ſo ſtrongly, that it made it as flat as a <hi>Milan.</hi> Chee<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e.</p>
+            <p n="43">
+               <pb n="74" facs="tcp:105398:43"/>
+               <label>XLIII.</label> IT is ſaid that <hi>Hercules</hi> got an hundred Maiden-heads in one night, but <hi>I</hi> was more valiant than that Whore-maſter, for in five hours time <hi>I</hi> begat an hundred <hi>Her<g ref="char:EOLhyphen"/>cules.</hi>
+            </p>
+            <p n="44">
+               <label>XLIV.</label> 
+               <hi>MArs</hi> puft up with vain preſumption, and being ſo impudent to attribute to himſelf in my preſence, that glory which my valour had lawfully acquired, made me ſo angry; that in the height of my fury, <hi>I</hi> took him by the Foot, and twirl'd him into the Air, making him move circularly with ſuch rappid violence that before he fell, he made more turnings and roundings in the Air, then the Heavens hath done ſince the firſt day of its Creation.</p>
+            <p n="45">
+               <pb n="76" facs="tcp:105398:44"/>
+               <label>XLIV.</label> J Swear <hi>I</hi> am almoſt diſtracted, ſince I de<g ref="char:EOLhyphen"/>ſpair of finding a man that ſhall cry me mercy. All my pride conſiſts in finding a man on whom I may diſcharge my paſſion and revenge; but I ſee it is impoſſible, ſince their ſwift flight ſecures them from my Fury. How can I then demonſtrate my power, ſince none againſt me dates make oppoſition.</p>
+            <p n="46">
+               <pb n="78" facs="tcp:105398:45"/>
+               <label>XLV.</label> BY the blood of thoſe many Gyants <hi>I</hi> have ſlain, I know not what Death to inflict on two Raſcals, that lookt a skew on me as I walk't in the ſtreets. In order there<g ref="char:EOLhyphen"/>unto, <hi>I</hi> examin'd my Magazine where <hi>I</hi> found ſix hundred ſixty and five ſeveral in<g ref="char:EOLhyphen"/>ſtruments of War, out of which I endea<g ref="char:EOLhyphen"/>voured to chooſe one moſt agreeable to my purpoſe. The Armour I uſually wore was ſo cut and ſlaſh<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, that like a Beggers ragged Coat, 'twould hardly hang toge<g ref="char:EOLhyphen"/>ther, wounded in every part without blood ſhed. At laſt I reſolved to baſtinado them ſoundly, that <hi>I</hi> might give ſome reſpit and reſt to my blood thirſty Sword and Dagger.</p>
+            <p n="47">
+               <pb n="80" facs="tcp:105398:46"/>
+               <label>XLVI.</label> WHat is it that I fear in <hi>Aſia, Europe,</hi> and <hi>Africa?</hi> were the <hi>Alpes</hi> ſet on the Shoulders of the <hi>Pyrenean</hi> Mountains, ſeven Dragons, eight Elephants, ten Tygers, twenty two Lyons, ſixty five Bulls, with all the <hi>Swi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>zers</hi> in <hi>France</hi> to guard them, I would aſcend to their utmoſt height by the ſlaughter of them all.</p>
+            <p n="48">
+               <pb n="82" facs="tcp:105398:47"/>
+               <label>XLVII.</label> MY Shoomaker one morning brought me home a pair of Shoos too ſtreight fo<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> my Feet, which ſo inraged me, that with a blow I ſtruck him ſo far into the E<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rth, that I made a paſſage into <hi>Pluto's</hi> Kingdom. Hereupon <hi>Belzebub, Satan, Plu<g ref="char:EOLhyphen"/>to, Barrabas, Judas,</hi> with a many more Princes of thoſe obſcure tenebroſities, w<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>re ſtrangely ſtartled; <hi>Cerberus</hi> bark't, <hi>Proſerpine</hi> tore her Hair, weeping moſt bit<g ref="char:EOLhyphen"/>terly, becauſe ſhe ſaw the affrighting Light, invade her dark Kingdom. The little Devils hid themſelves here and there, and ſome of them fled away, part whereof live at this time in the Air, (and are called Aiereal Spi<g ref="char:EOLhyphen"/>rits) others dwell on the Earth (and are called <hi>Subterraneau</hi>) daily tormenting the <gap reason="illegible" resp="#KEYERS" extent="4 letters">
+                  <desc>••••</desc>
+               </gap>itants thereof.</p>
+            <p n="49">
+               <pb n="84" facs="tcp:105398:48"/>
+               <label>XLVIII.</label> MAdam you may juſtly lay aſide the name of Dame <hi>Beatrice,</hi> and aſſume for the time to come that of Empereſs, Queen, Princeſs, Marqueſs, Counteſs, <hi>&amp;c.</hi> Sinc my two thighs, thoſe <hi>Herculean</hi> Pil<g ref="char:EOLhyphen"/>la<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s, which ſuſt in the whole World, are at your ſerve, <hi>I</hi> would ſay this (<hi>Brittiſh</hi> o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>) C<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſtillian body crammed with the valour of couragious Men of War, which makes this breaſt; and this arm more ſtrong th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n the Tower of <hi>Babylon,</hi> and chiefly when it is aſſiſted with this my redoubted Sword becauſe the fire which proceeds from it, penetra<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>es farther, and ſurpaſſeth by much in ſplendor the bright Rayes of the illu<g ref="char:EOLhyphen"/>m<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nating Sun.</p>
+            <p n="50">
+               <pb n="86" facs="tcp:105398:49"/>
+               <label>XLIX.</label> I Am the Man alone which is void of fear, threatning the Sky, and the Air, the Fire and the Earth, <hi>Jupiter</hi> and Hell, as far as the Elements <hi>I</hi> deſire to wage War with them. <hi>I</hi> value not a Tempeſt, a Thunder<g ref="char:EOLhyphen"/>bolt, Lightning; nor Thunder, and before it be long, <hi>I</hi> will make my ſelf Grand Seignor of the upper Regions, and the lower. <hi>I</hi> both will and can do it, for my power is proportionable to the Enter<g ref="char:EOLhyphen"/>prize.</p>
+         </div>
+         <div xml:lang="fre" type="text">
+            <pb n="7" facs="tcp:105398:5"/>
+            <head>RHODOMONTADO'S</head>
+            <p n="1">
+               <label>I.</label> QVand ie vins au monde, Mars m'entra dans les eſpaules, Hercules dedans le bras droit, Samſon au gauche, Atlas és iambes, Mercure en la teſte, Venus aux yeux, Cupidon en mon viſage, Neron en mon coeur, Iupiter en tout le corps. De ma<g ref="char:EOLhyphen"/>niere qu'auec l'abondance de ma force quand ie chemine, ie fais trembler la terre, le Ciel s'eſpouuante, le vent ceſſe, &amp; lamer deuient calme les femmes groſſes auortent, les hommes fuyent qui deçà qui delà, &amp; les plus vaillans &amp; courageux voyans ma preſence diſent tou<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> d'vne voix: <hi>Libera me Domine.</hi>
+            </p>
+            <p n="2">
+               <pb n="9" facs="tcp:105398:6"/>
+               <label>II.</label> IE jure Dieu, vilain, ſi it vois là ie te donneray vn tel coup anec ce baſton, queie te feray entrer ſix pieds dedans laterre, telliment qu'il ne reſtera rien detoy horsd'icelle que ton bras droit, pour m'oſter ton chapean lors que tu me verras paſſer.</p>
+            <p n="3">
+               <label>III.</label> CErtainement quae quand ie conſidere, combien la fortune <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>' a do<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e de graces, le temps me defaut à faire toutes ces conſiderations: pource qu' elle m'ae premierement co<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ble de forces, elle m'a quallifiè de courage, elle m'a fabriqué de tres grande valeur: comme vne Colomne en France, vn Baſtion en Eſpagne, vne Fortereſſe en Italie, vn Chaſteau en Angleterre, vne Citadelle en Alle<g ref="char:EOLhyphen"/>magne, vne Tour en Polongue, vne Roque <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n Armenie, vne Muraille en Dannemarc, &amp; <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>'a or né generalement ſur tous les hommes du mo<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>de, moy qui ſuis vn metail purifié ſorty des entrailles de la graſſe de la terre &amp; eng<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>dré de gener<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>ſité.</p>
+            <p n="4">
+               <pb n="11" facs="tcp:105398:7"/>
+               <label>IV.</label> IE iure parles os du Soleil, qu'il n'eſt pas plus poſſible à mon bras dextre de donner coups de baſton ſans tuer, que au Soleil de ceſſer de faire ſa courſe par le Ciel.</p>
+            <p n="5">
+               <label>V.</label> VEritablement ie ne croy pas qu'ü y ait choſe au monde qui puiſſe eſgaler l'hor<g ref="char:EOLhyphen"/>rible, eſpounentable &amp; furienſe terribilité de mon courage. Et quelles ſont ces choſes creées en ce monde, qui m'honorent &amp; obeyſſent, ſi moy auec ma grand force ie fay trembler la terre, eſpouuenter le Ciel, ſecher les planettes, ceſſer levent, arreſter la mer, les beſtes des hautes montagnes, &amp; les beſtes ſauuages qui habitent és petites montagnettes ou colines ſe caches en icelles. Et qui plus eſt les oyſeaux qui volent par l'air, les poiſſons qui nagent en la mor, &amp; les hommes les plus vaillans &amp; courageux auec vn ſoul regard de mes yeux ie les mets en la ſepulture.</p>
+            <pb facs="tcp:105398:8"/>
+            <p n="6">
+               <pb n="13" facs="tcp:105398:12"/>
+               <label>VI.</label> ALlez à mon Cuiſinier, dites lay qu'il mette en la broche douzaine &amp; demie de coups d'artilleries lardez avec infinies tronçons de picques &amp; hallebardes, que i'ay ſurmonté en ce monde: &amp; deux ou trois douzaines de mouſquets &amp; piſlolets ſur le gril, &amp; vous viendrez ſouper auec moy. Car c'eſt la viande de laquelle i'ay accouſtumé de manger.</p>
+            <p n="7">
+               <pb n="15" facs="tcp:105398:13"/>
+               <label>VII.</label> IE ſuis Roy des Paladins, la terreur du monde, la fleur de la nobleſſe des Rodo<g ref="char:EOLhyphen"/>monts, Rolands, &amp; Renaud, doüé d'infinies graces, beau comme vn Ange, coeur &amp; cou<g ref="char:EOLhyphen"/>rage de Lucifer, ſeruiteur des Dames, &amp; Prince ſouuerain de la compagnie des matois.</p>
+            <p n="8">
+               <pb n="17" facs="tcp:105398:14"/>
+               <label>VIII.</label> VNiour ie trouué en vn<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> bataille la Foyne des Amazones, l<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>quelle me voulant tuer de ſon eſpée, hauſſa le bras, &amp; moy ſans perdre temps ie luy coupè, &amp; auſſi toſt la ietté par terre puis la pre<g ref="char:EOLhyphen"/>nant par les cheueux ie la iette de telle fu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ie &amp; vi<g ref="char:EOLhyphen"/>olence en l'air qu'elle donna &amp; paſſa inſques au cinquiéme Ciel, rer contrant Mars qui joüoit aux cent auec Venus, auquel elle r<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>mpit la teſte. Vtnus grandement eſpounentée, s'<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſcria demandant ſetours, &amp; à ſon cry accour<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nt tous les dieux, leſquels de<g ref="char:EOLhyphen"/>meurerent fort eſtonnez voyans Mars eſtendu ſur la place. Lors Iupiter miſt la teſte à la feneſtre, &amp; me vit iettant coups d'eſpec contre mes ennemis de telle cholere, que le feu qui ſortoit d'icelle ſembloit eſte vn aeutre Mont-Gibel ou d'Ethne. Partant J<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>piter dit a tous les Dieux, qu'il ne ſe remuaſſent ou fiſſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nt aucun bruit, d'autant que celuy qui auoit tue Ma s eſtoii aſſez ſuffiſant pour t<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>er encore tout autant de Dieux qui reſtoient en v<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e.</p>
+            <p n="9">
+               <pb n="19" facs="tcp:105398:15"/>
+               <label>IX.</label> GArdez-vous (mes Seigneurs) retirez vous vn peu iuſques à ce que i'aye mis ma cape ou manteau, pource que le vent d'icelle eſt ſuffiſant pour vous enuoyer cinquantes lieuës loin par delà les monts Pyrenées.</p>
+            <p n="10">
+               <label>X.</label> SI mon eſpée pouuoit dire ce qu'elle fait, le temps luy defaudroit pour en diſcorrir. Qui eſt-ce ſinon elle, qui peuple plus tous les cymeti<g ref="char:EOLhyphen"/>eres qui ſunt au monde? Qui eſt-ce qui fait riche les Chirurgiens de ceſte terrc? Qui eſt ce qui donne continuellement de la beſongne pour trauailler aux armuriers? Qui eſt-ce qui rompt la maille plus fine? Qui eſt-ce qui ſe mocque des boucliers de Barcelona, qui 'taille les cabacez de Calatayud ſinon elle? Carles caſquets d'Almazen elle les coupe autant fa<g ref="char:EOLhyphen"/>cilement comme s'ils eſtoient fatis de melon.</p>
+            <p n="11">
+               <pb n="21" facs="tcp:105398:16"/>
+               <label>XI.</label> ILy a vingt ans que cette eſpée me donne à manger. Par elle ie ſuis craint des hommes: &amp; aimé des femmes.</p>
+            <p n="12">
+               <label>XII.</label> ON m'a dit que'le grand Turc commet plu<g ref="char:EOLhyphen"/>ſieurs meurtres, qu'il coupe iambes &amp; bras: mais par la vie des os de mon pere, ſi ie voy là il n'aura plus de hàrdieſſe: pource que voyant deuant luy ma proſence, il ſe don<g ref="char:EOLhyphen"/>neray luy-meſme la mort de fa propre main, afin qu'il ne vienne à tomber és miennes.</p>
+            <p n="13">
+               <pb n="23" facs="tcp:105398:17"/>
+               <label>XIII.</label> AVec vne ſeule voix ie penetreray &amp; enforce<g ref="char:EOLhyphen"/>ray l'Enfer, &amp; de maſeule preſence i'aſ<g ref="char:EOLhyphen"/>ſuietti<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ay tout le monde depuis l'Orient iuſques à l'Occiden, meſme que ie le pilleray, &amp; ravageray &amp; me<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>tray en pieces les hommes qut ſont nais en iceluy. Puis on ſçait par tout que ie ſuis. Que i'ay mon lict dreſséſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r des coſtes de Geants, les matlas ſont remplis de mouſtaches de Maiſtres de Camp du grand Turc, &amp; les Traverſins de ceruelles qu' à coups de ſoufflers i'ay tirez de la teſte de Capitaines, les draps ſont tiſſus de cheneux d'Amazones, les conuertures de barbes de Suiſſes, les courtines de ſourcils, &amp; paupieres de Hongres &amp; Allemans: Et la muraille de mon logis eſt baſtie de pieces tant de caſques que de teſtes entieres des Porte enſeignes de la Royne d'Angleterre, leſquelles i'ay trenchees auec ceſte crainte &amp; formidable eſpee: le plancher dema maiſon eſt en lieu de carreaux accommode de dents de Ianiceres: La tapiſſerie ſont peaux d'Arabes &amp; ſorciers que i'ay eſcorchez auec la pointe de ma dague &amp; les tuilles qui conurent ma maiſon ſont ongles de Monarques &amp; Roys, les corps deſquels il y a ià longs temps qu'en deſpit d'eux &amp; á leurs corps deffendant, i'ay mis a coups de pied en la ſepulture.</p>
+            <p n="14">
+               <pb n="25" facs="tcp:105398:18"/>
+               <label>XIV.</label> IE meſpriſe de mettre la main à l'eſpée contre vnbrauache Capitaine Anglois ié luy donné vn tel coup de pied, qu'il alla frap<g ref="char:EOLhyphen"/>per de ſa teſte dans le Soleil de telle force, ce qu'il le fit eclipſer l'eſpace de quinze iours, &amp; de là en apres ce Capitaine s'eſt agenoü illé deua<g ref="char:cmbAbbrStroke">̄</g>t Iupiter le priant de me pardo<g ref="char:cmbAbbrStroke">̄</g>ner mes pechez en recompenſe de ce qu'avec ce coup de pied ie l'auois mis au Ciel avec les eſtoilles, moy le povant envoyer en enfer auec les mal<g ref="char:EOLhyphen"/>heureux &amp; damnez eſprits.</p>
+            <p n="15">
+               <label>XV.</label> AVec vn poil de ces mouſtaches que ie te ietteray, ie feray vne telle ouverture en ton corps, que toute l'Infanterie Eſpagnolle &amp; la Caualerie Francoiſe aſſeront au travers ſans toucher a l'un ny à l'autre coſté a'icelle.</p>
+            <p n="16">
+               <pb n="27" facs="tcp:105398:19"/>
+               <label>XVI.</label> DAme de mon coeur, commondez moy quelque choſe qui ſoit de ma vocation: car ie vous iure par la groſſe dent de Cerbere de deffier pour l'amour de vous dix hommes enſemble, &amp; quand il en viendroit d'auantage ie ne m'en voudrois fuir. Com<g ref="char:EOLhyphen"/>mandez moy de tuer vn, deux, trois, quatre, cinquante, ſoixante perſonnes: couper iambes, bras, taillarder le viſage de quelqu' vne, qui ſe ſoit oſé eſgaler à vous: car ces telles choſes ſeront pluſtoſt faites qu'elles n'auront eſté com<g ref="char:EOLhyphen"/>mandées.</p>
+            <p n="17">
+               <pb n="29" facs="tcp:105398:20"/>
+               <label>XVII.</label> AVec cette tres redoutée eſpée, ie ruine, i'embraze, &amp; mets tout en feu, rompant les Armées, les Citez, les chaſteaux, les foſſez, les Tours, les murailles, &amp; les forte<g ref="char:EOLhyphen"/>reſſes inexpugnables. Et avec ma preſence ie fais cacher Jupiter, fuir Mercure, trembler Cupidon, deſguiſer &amp; transformer Mars, &amp; fay qu'il voiſe prendre le tribut que Venus me donne, pource que ie ſuis ſon amoureux.</p>
+            <p n="18">
+               <pb n="19" facs="tcp:105398:21"/>
+               <label>XVIII.</label> ET quelque part que ie ſois la mort eſt tou<g ref="char:EOLhyphen"/>ſiours avec moy, pource quelle a plus de profit uvec moy que ſi elle eſtoit au milieu des plus ſanglantes &amp; furieuſes guerres du monde, &amp; m'a touſiours ſuivi &amp; accompagné en la conqueſte des Royaumes dis Grimeens, Diceens. Dinameens, Alopitiens, Pitaniens &amp; Eſpino<g ref="char:EOLhyphen"/>meens, auſſi que telle eſt la verité que ſans elle ie cheminerois touſiours ſeul, &amp; de nuict: pource que ie ne trouve autre qui me reſemble &amp; me plaiſt plus qu'elle.</p>
+            <p n="19">
+               <pb n="33" facs="tcp:105398:22"/>
+               <label>XIX.</label> COmme le monde eſt diviſé en quatre parties deſquelles les trois ſont Afrique, Aſie &amp; Eu<g ref="char:EOLunhyphen"/>rope: &amp; ces trois ſont entourées &amp; enuironnèes de l mer: ainſi mon coe<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r eſt diviſe en trois autres par<g ref="char:EOLhyphen"/>ties d'vne nature affable, terrible &amp; cruelle, &amp; ces trois parties ſont evirennées, non pas d'eau, mais de viues flammes ardantes de feu. Et comme ce feu (à cauſe de l'amour) ſi tant doux (que meilleur me ſeroit s'il eſtoit amer, a ce que ie ne tiens cap<g ref="char:EOLhyphen"/>tiue ceſte poiſon qui eſt mo<g ref="char:cmbAbbrStroke">̄</g> coear) de meſme l'eſt mo<g ref="char:cmbAbbrStroke">̄</g> coeur. Pource qu'auec trois coups de ceſte bien treu<g ref="char:EOLhyphen"/>chante eſpée l'vn donne detaille, l'autre de reuers, &amp; l'autre de pointe, ie voudrois mettre par terre tout le genre humain faiſant les ruiſſeaux de ſang plus long que le Gange, plus large que n'eſt le Po, &amp; plus terrible que le Nil. Mais que le monde remercie de ce que maintenant ie ſuis amoureux, car au pre<g ref="char:EOLhyphen"/>cedent que ie le ſuſſe, ie tuois chacuu iour pour le moins trois ou quatre douzains de perſonnes, &amp; maintenant ie mets a mort pas plus qu'vne douzaine &amp; ce a cauſe de l'affection tres grande que je porte a ma Maiſtreſſe.</p>
+            <p n="20">
+               <pb n="35" facs="tcp:105398:23"/>
+               <label>XX.</label> J'Ay en moy la nature du Baſilic, &amp; encore quelque choſe de plus: car ſi luy avec ſon re<g ref="char:EOLhyphen"/>gard en tüe vn, moy regardant les hommes a<g ref="char:EOLhyphen"/>vec cholere ie les fais tomber dix à dix comme ſi mo<g ref="char:cmbAbbrStroke">̄</g> regard eſtoit des balles d'artillerie.</p>
+            <p n="21">
+               <label>XXI.</label> SI mon tant valeureux courage que i'ay en mon ame ſe pouvoit achapter à prix d'ar<g ref="char:EOLhyphen"/>gent, il n'y auroit plus aucun trafique en la mer ny en la terre, &amp; ne parleroit on plus de mar<g ref="char:EOLhyphen"/>chands ny de marchandiſes: perſonne ne ſe priſeroit ou tacheroit plus de s'adonner à telle vacation: pour autant que tous procureroient d'employer leur induſtrie, pour acquerir la force d'vn de mes bras, d'vne iambe, a'vn doigt, d'vne ongle, d'vne paupiere de mon oeil, du plus petit poil de ma teſte, &amp; ce ſeulement pour eſtre vaillans: car c'eſt ce que maintenant on priſe le plus. Mais ie me refiouys que cela ne ſe peut faire, à cauſe que cela eſt cauſe d'vn plus grand repos de tous les Roys, Monarques, &amp; Princes qui ſont tous mes amis.</p>
+            <p n="22">
+               <pb n="37" facs="tcp:105398:24"/>
+               <label>XXII.</label> QVi ſera ceſte tres grande eshontée qui ne deviendra amoureuſe de ceſte forte cuiſſe, de ce bras puiſſant, de ceſte poictrine plaine de toutes forces &amp; vaillantiſe, de ce viſage plus beau que celuy de Ganimede, que celuy de Didon, ny encore que celuy d'Abſalon?</p>
+            <p n="23">
+               <label>XXIII.</label> MA Maqeerelle vielle putain de fortune, n'a donné parole, que ie iouyray de cefle Dame laquelle ie ſuis tant amoureux, que ſi elle ne me tient promeſſe ſe iure par les cornes de Pluton, par la barbe de Mars, par la machoi<g ref="char:EOLhyphen"/>re de Samſon, &amp; par l'Alcoran de Mahomet que ie luy oſteray &amp; feray perdre toute ſon in<g ref="char:EOLhyphen"/>co<g ref="char:cmbAbbrStroke">̄</g>ſtance &amp; variable roüe, &amp; quant à ſon corps d'vne eſtocade ie l'enuoyray à Valdolid, brisé en tant de petites pieces, qu à l'heure qu'il arriuera, on en pourra recueillir de la poudre, pour ietter ſur les lettres que ie dois enuoyer à ma maiſtreſſe.</p>
+            <p n="24">
+               <pb n="39" facs="tcp:105398:25"/>
+               <label>XXIV.</label> I'Ay plus augmenté en deux iours le Royan<g ref="char:EOLhyphen"/>me ſtigiux de Pluton, &amp; peuplé de ſubiets, ſa ſale tenebreuſe &amp; enfumée que n'ont fait Rodomont, Rolant, Renand, Manaricard &amp; Radamante, ayant rendu craintifs en mille &amp; mille lieux le: coeurs plus vaillans courageux. Teſmoins en ſont les Orient aux, les Septen<g ref="char:EOLhyphen"/>trionaux, les Occidentaux, &amp; ceux qui ha<g ref="char:EOLhyphen"/>bitent le Midy.</p>
+            <p n="25">
+               <pb n="41" facs="tcp:105398:26"/>
+               <label>XXV.</label> LE grand Turc a plus de crainte de ma va<g ref="char:EOLhyphen"/>leur que ce bras luy a fait cognoiſtre qué dix armées iointes enſemble, pource que moy me trouvant vn iour en la guerre des Veni<g ref="char:EOLhyphen"/>tiens contre le meſme grand Turc, ie donné tel ſoufflet à Abenhamet ſon Maiſtre de Camp, que ie luy oſté la teſte de ſur les eſpaules, &amp; du coup elle ſauta juſqués en Conſtantinoples, y portant les nouvelles de la perte de fon armée. Et quand tous les ſiens virent cette teſte ſans corps, ils s'enfuyrent en leurs maiſons fermant bien leurs portes ſureux avec telle crainte que de ſix ans ils n'ont osé ſortir dehors, pour la crainte qu'ils avoient de moy, iuſques à ce que moy uſ ant de mon accouſtumée magnificence, ie leur permis qu'ils peuſſent ſortir librement, &amp; ſe promener comme de couſtume: ce que puis apres ils ont fait.</p>
+            <p n="26">
+               <pb n="43" facs="tcp:105398:27"/>
+               <label>XXVI.</label> QVand ie marche par les ri<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>és de la Cité, mille Dames me viennent au<g ref="char:EOLhyphen"/>devant; l'vne me tire par la cap<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>; l'autre me fait ſigne de l'oeil: l'autre me prie d'aller ſouper avec elle, vn autre me fait vn pre<g ref="char:EOLhyphen"/>ſent: vn autre me baiſe les mains, &amp; beniſt la mere qui m'a enfanté, ſe reputant tres heu<g ref="char:EOLhyphen"/>reuſe qu'elle aye en ce bon-heur de coucher vne nuict avec moy, à celle ſin ſeulement qu'elle puiſſe avoir vn enfant de la race d'vn tant grand perſonnage comme moy.</p>
+            <p n="27">
+               <pb n="45" facs="tcp:105398:28"/>
+               <label>XXVII.</label> SI la force de mes membres eſtoit departie entre perſonnes poltronnes &amp; eſprits mu<g ref="char:EOLhyphen"/>tins, le monde ſeroit mis tout en revolte, &amp; ne verroit on autre choſe en iceluy ſinon Con<g ref="char:EOLhyphen"/>queſtes &amp; Batailles; les cloches ne ſe ſonne<g ref="char:EOLhyphen"/>roient de iour &amp; de nuict, ſinon pour un ſigne de quelque enterrement de corps morts, les Chirurgiens ne ſortiroient de leurs maiſons, ſi<g ref="char:EOLhyphen"/>non pour recoudre les coups d'eſpées, guarir les eſtocades, en remettre &amp; renoüer les iam<g ref="char:EOLhyphen"/>bes rompuës, les femmes pour pleurer la mort de leurs maris, les petits enfans la perte de leurs peres, &amp; les ieunes Dames la diſgrace qu'auroient encouru leurs amoureux.</p>
+            <p n="28">
+               <pb n="47" facs="tcp:105398:29"/>
+               <label>XXVIII.</label> POur certain que ie meris quand ie me ſouviens de l'ignorance des Dieux, qui ont desfié Her<g ref="char:EOLhyphen"/>cules, &amp; luy ont mis le nom d'vn d'iceuz l'appellant Dieu, &amp; ce ſeulement pource qu'il a tue l'Hydre, qu'il a oſte la corne au Taureau, mis en pieces le Dragon, deffait le Lyou, ſurmonté le Centaure &amp; le <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>er Sauglier, &amp; aux vus &amp; aux autres fait perdre la vie: pource qu'il a fait de crainte enfuir les Harpies, qu'il a tue Cete &amp; Achelois, vaincu Diomede Roy de Thrace, &amp; deffait Geroues Royne des Amazones, finablement pource qu'il a plante des Colomnes en pluſieurs endroits. En effect toutes ces choſes ne ſont qu'vne pure fable &amp; actions de petites femmelettes comparees avec mon courage &amp; ma force que ny la puiſſance de Daire Roy des Perſes, ny du grand Alexandre, ſurnomme le Grand, ny le fort Samſon, ny le puiſſant Hector Troyen, ny le valeu<g ref="char:EOLhyphen"/>r<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>x Achiles, ny le furienx Roland, ny le vaillant Gridacb, ny le galliard Sacripante, ny le terrible Mandricard, ny le fameux Roger, ny le robuſte A<g ref="char:EOLhyphen"/>grican, ny l'horrible Rodoment, nul de tous <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ceux-cy ne ſe penvent eſgaler à mon horrible, eſpouventable &amp; furihonde force.</p>
+            <p n="29">
+               <pb n="49" facs="tcp:105398:30"/>
+               <label>XXIX.</label> SI je voy à toy je te donneray tel coup de pied t'eſlevant en haut, tellemement qu'eſtant chargé de dix charettes de pain tu auras plus de peur de la faim, que la cheute.</p>
+            <p n="30">
+               <label>XXX.</label> LE bras me tremble de ce que je me deli<g ref="char:EOLhyphen"/>bere de faire pour ma Maiſtreſſe, car continuellement ie penſe comme je la tiendray contente, &amp; iamais ie n'y puis parvenir. La nuict paſsée ie ſongeois que je faiſois fait d'ar<g ref="char:EOLhyphen"/>me<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> en ſa faveur contre dix hommes deſquels i'en tué ſix &amp; de ceux qui s'enfuyrent celuy qui ſe ſauva avec plus de ſanté me laiſſa vn bras gauche à mes pieds. Puis (bon Dieu) comment le feray ie beaucoup mieux de iour moy eſtant eſueillé, quand quelqu' vn prendra la hardieſſe de toucher à ſon patin.</p>
+            <p n="31">
+               <pb n="51" facs="tcp:105398:31"/>
+               <label>XXXI.</label> MOy ioüant vn iour avec la Deſtinée en la preſence du Te<g ref="char:cmbAbbrStroke">̄</g>ps, de la Fortune &amp; de la Nature, ſur vn hazard nous euſmes vne dif<g ref="char:EOLhyphen"/>ficulté: de telle maniere que ie mis la main à l'eſpée. Le Temps, la Fortune, &amp; la Nature que eſtoient amis de la Deſtinée ſe mirent entre deux pour faire la paix. Ie qui ſuis Eſpagnol, ie mets le pied droit dehors, &amp; donne vn tel coup au Temps que ie le ietté entre le Ciel &amp; la Terre où il ſe tient à preſent, &amp; a la Fortu<g ref="char:EOLhyphen"/>ne ie luy donné vn oeillade par le milieu de la Ceinture, iettant l'vne de ſes moitiez là où le Soleil ſe leue, &amp; l'autre moitié où il ſe cache. Et quand à la Nature ie la frappé d'vn e l revers luy faiſant vne playe toute profonde &amp; incurable, que ny Medicin, ny Chirurgien, ny barbier, ny Apoticaire n'ont eſté aſſez ſuffiſant pour la guerir: tellement que vous verrez tous les mois de l'an qu'elle jette d<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſang par cet<g ref="char:EOLhyphen"/>te playe.</p>
+            <p n="32">
+               <pb n="53" facs="tcp:105398:32"/>
+               <label>XXXII.</label> VN jour moy ioüant au Balon, je le frappé de telle force, qu'il fut porté iuſques an troifième Ciel, tombant &amp; ſautillant devant les Dieux qui eſtoient aſſemblées pour tenir conſeil, leſquels lors ſe regardans l'vn l'autre demeurerent grandement esbahis, tenant la<g ref="char:EOLhyphen"/>bouche ouverte ſans pouvoir dire vne ſeule parole l'vn à l'autre, juſques à ce que leurs ſens eſtant revenus en eux, ils trouverent qu'il ſeroit bon que Iupiter deſcendit en terre, &amp; s'agenoü illaſt devant moy, &amp; que quittant ſe<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſceptre &amp; Couronne, il s'offriſt humblement à mon ſervice, Venus pour ma ſervante, Mars pour mon laquais &amp; Mercure pour mon Ma<g ref="char:EOLhyphen"/>quereau.</p>
+            <p n="33">
+               <pb n="55" facs="tcp:105398:33"/>
+               <label>XXXIII.</label> DEſirant que Pluton me payaſt le tribut ordi<g ref="char:EOLhyphen"/>naire que me paycroit les autres Roys, ie m'en alle droi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> en l'Enfnr ou i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> trouvay Pluton qui ſe pro<g ref="char:EOLhyphen"/>me noit accompagne de cinq cens &amp; quarante cinq millions, &amp; traize cens nonante &amp; ſix mil legions a<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Diables, qui le ſuivoient. Et auſſi toſt me voyant venir de loin, il s'achemine droit a moy pour ſe re<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e mon priſonnier. Alors ie mis la main a l'espee<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> &amp; Pluton co<g ref="char:cmbAbbrStroke">̄</g>me il me voit in cholere, &amp; aya<g ref="char:cmbAbbrStroke">̄</g>t recogn<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> que i'eſtois Eſpagnol, il s'enfuit droit au plus pro<g ref="char:EOLhyphen"/>fond de l'Enfer avec toute ſa ſuite, &amp; ferma bien les portes. Et moy voulant qu'il m'obeiſt, marche pas a pas comme ceux de ma nation ont de couſtume, &amp; d'vn eſternuement que ie fis, ie romps toutes les portes &amp; entre dedans. En vn moment ie tris tri<g ref="char:EOLhyphen"/>ſonnier le grand Satan, le Prince Pluton &amp; la be<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Proſerpine, auſquels ie lie fermement les maius a<g ref="char:EOLhyphen"/>vec vn poil de cette mouſtache. Toutes fois voyant les larmes &amp; lamentations qu'ils faiſoient i'uſay de la magnificence Eſpagnole, &amp; les deſtache les re<g ref="char:EOLhyphen"/>mettant en leur liberte.</p>
+            <p n="34">
+               <pb n="57" facs="tcp:105398:34"/>
+               <label>XXXIV.</label> I'Eus un iour une querelle avec vn Gentil-homme François, il me deſia me diſant que ie miſſe la main à l'eſpée: moy qui ſuis du tout courageux, ne le voulus faire pource que le François eſtant froid &amp; ſans cholere, je luy euſſe tiré cinquante eſtocades, &amp; antant de coups de tailles ſans le pouvoir tuer, mais à moy qui ſuis tout rempli &amp; confit de courage &amp; cholere, avec le moindre coup du monde il m'eut envoyé aux enfers.</p>
+            <p n="35">
+               <pb n="59" facs="tcp:105398:35"/>
+               <label>XXXV.</label> EStant vne fois hors les trenchées d'Oſten<g ref="char:EOLhyphen"/>de, vne balle d'artillerie m'entra en la bouche, m'eſbranlant deux dents, ſans me faire autre mal. A l'heure meſme plein de cholere ie pris cette balle en mes mains &amp; la iettant contre les ennemis, elle tomba fortui<g ref="char:EOLhyphen"/>tement contre vne Tour de la muraille, laquel<g ref="char:EOLhyphen"/>le fut en vn moment reduite en poudre, tuant iuſques à mil cinq cens cinquante &amp; cinq Soldats qui la gardoient.</p>
+            <p n="36">
+               <pb n="61" facs="tcp:105398:36"/>
+               <label>XXVII.</label> VNe fois i'en trayaux enfers, où ie trouvay aſſis à table, Pluton, Proſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rpine &amp; la Mort; Ils <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>urent vne telle crainte me voyant en leurs tenebres, que connoiſſant leur peu de courage ſans m'arreſter je fis vne cabriole à la Françoiſe, &amp; avec le plus haut de mon chap<g ref="char:EOLhyphen"/>peau je rompt le toict de l'Enfer, &amp; ſortant de<g ref="char:EOLhyphen"/>hors, le bruit que je fis fut tant grand que la Cité de Lisbone en trembla, ruinant huict cens octante &amp; cinq maiſons de la rue de Boaviſte:</p>
+            <p n="37">
+               <pb n="47" facs="tcp:105398:37"/>
+               <label>XXXVII.</label> MOy, Hercules la mort, &amp; l'amour nous trouvaſmes fortuitement vn jour enſem<g ref="char:EOLhyphen"/>ble en vn quarfour, chacun de nous ayant ſon arc &amp; ſa fleche, &amp; tous trois nous fiſmes cét accord, que celuy qui de ſon traict feroit vne plus grande execution auroit pour recompenſe l'honneur. Hercules commenç a le pre<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ter, &amp; avec ſa fléche il ſit mourir toutes les Panthers, Lyons, Tygres, Ours, Loups, toutes beſtes ſau<g ref="char:EOLhyphen"/>vages, Dains, Elephans, Chameaux &amp; Taure<g ref="char:EOLhyphen"/>aux. L'Amour priſt ſa fléche, en tirant de la<g ref="char:EOLhyphen"/>quelle il fit que les Dieux, les Geans, les Ama<g ref="char:EOLhyphen"/>zones, les hommes &amp; les Diables tomberent tous ſous le ioug amoureux, moy ſeul excepte ſur lequel l'amour n'a aucune puiſſance. La mort ſe reſolut de tirer ſon traict, avec lequel elle fit mourir toutes les creatures qui eſtoient ſur la terre: Moy m'indignant contre eux, &amp; eſta<g ref="char:cmbAbbrStroke">̄</g>t vn peu mis en cholere pour me vanger D'eux tous, ie mets ma fléche à mon arc, faiſant com<g ref="char:EOLhyphen"/>me dernier mon traict, avec lequel ie tué Her<g ref="char:EOLhyphen"/>cules, l'amour &amp; la mort.</p>
+            <p n="38">
+               <pb n="65" facs="tcp:105398:38"/>
+               <label>XXXVIII.</label> NE vous ennuyez Maiſtreſſe &amp; Dame de ma vie, &amp; nayez aucune faſcherie ſi je ſuis recherché &amp; amé de tant de Dames &amp; Princeſſes, leſquelles vivent eſtant, abuſées &amp; perdent leur temps en vajn: car je n'aime &amp; ne porte affection à autre qu'à voſtre ſeig<g ref="char:EOLhyphen"/>neurie (Maiſtreſſe) puis que vous eſtes doüée de beauté plus que Diane, de bonnes graces &amp; plaiſant maintient plus que Pallas, de douceur plus que Ve<g ref="char:cmbAbbrStroke">̄</g>us: toutes trois ſouveraines Deeſſes &amp; vous vous eſtes la mie<g ref="char:cmbAbbrStroke">̄</g>ne propre, à laquelle i'ay baillé mo<g ref="char:cmbAbbrStroke">̄</g> coeur. Co<g ref="char:cmbAbbrStroke">̄</g>ſiderez do<g ref="char:cmbAbbrStroke">̄</g>c que je vous aime, &amp; ne me quittez pas pour vn autre, puis que je ſuis plus que Gentilho<g ref="char:cmbAbbrStroke">̄</g>me. Que ſi vous mariez avec moy; je vous jure foy de Capi<g ref="char:EOLhyphen"/>taine &amp; par la vie du Roy mon pere (car ie n'a ſceu iamais autrement ſon nom) de vous faire la premiere nuict vn regiment de ſoldats qui conqueſteront tout le monde.</p>
+            <p n="39">
+               <pb n="67" facs="tcp:105398:39"/>
+               <label>XXXIX.</label> IE baiſe la plante des pieds de voſtre Seignurie Maiſtreſſe de coeur, Princeſſe de cette po<g ref="char:EOLhyphen"/>ictrine. Ducheſſe de ces bras: Marquiſe de mon courage, Comteſſe de ma valeur, Royne de mes forces, Dame abſolve de toute ma perſonne.</p>
+            <p n="40">
+               <pb n="69" facs="tcp:105398:40"/>
+               <label>XL.</label> ARrivant pres de Lisbonne, i'appris que cinqua<g ref="char:cmbAbbrStroke">̄</g>te vaiſſe aux eſtoient preſts d'entrer au port, auſſi toſt je fus me pourmener ſur la falaize pour les voir aborder plus co<g ref="char:cmbAbbrStroke">̄</g>modé<g ref="char:EOLhyphen"/>ment mais comme ils eſtoient fort pres, je me trouvay contraint par vn flus de ventre de mettre le haut de chauſſes â bas, &amp; oppoſant mes Globes terreſtres à celuy de l'eaus pour me guarantir d'vne violente colique qui me vou<g ref="char:EOLhyphen"/>loit ſaiſir, je laſche vne petarade ſi violente, qu'elle ſuſcita la plus violente tempeſte qui ce ſoit jamais veuë ſur l'Ocean, qui repouſſa cent cinquante vaiſſeaux avec tant de furie qu'ils s' allerent fracaſſer centre les roches de l'A<g ref="char:EOLhyphen"/>merique.</p>
+            <p n="41">
+               <pb n="71" facs="tcp:105398:41"/>
+               <label>XLI.</label> IL eſt vray que ie ſuis mal veſtu, mais ce n'eſt pas vne nonchalance nyvne pauvreté extréme qui m'oblige à paroiſtre de la ſorte, mais bien vn voeu ſolennel que i'ay fait de n'acheter iamais d'eſtoffe pour me faire vn habit qu'au prealable je n'euſſe trouvé cent cinquante douzaines de mes ennemis que je veux terraſſer pour m'en ſervir a couvrir mon habit en guiſe de boutons, comme auſſi de leurs boyaux en guiſe de paſſemens.</p>
+            <p n="42">
+               <pb n="73" facs="tcp:105398:42"/>
+               <label>XLII.</label> MArs joyeux de m'avoir rencontré m'a demandé ſi je voulois paſſer le temps a<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Picquet, mais luy ayant reſpondu que mes con<g ref="char:EOLhyphen"/>tentemens ne ſe trouvoient que dans les exerci<g ref="char:EOLhyphen"/>ces violens, il ſe ſentit obligé à me propoſer le jeu du balon que i'acceptay &amp; comme il eſtoit en peine d'en faire recherche d'vn, il fut e<g ref="char:EOLhyphen"/>ſtonné quand il me veit prendre toute la terre, &amp; la pouſſer avec tant de roideur qu'elle alla donner juſques au Ciel, où Iupiter eſtonné en<g ref="char:EOLhyphen"/>voya viſtement Mercure pour apprendre la cauſe de cét accident, &amp; iuſtement comme il deſcendoit, ie repouſſois la terre pour la ſeconde fois, de ſorte que re<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>contrant ce Meſſager des Dieux, elle luy coſſa le nez, &amp; Ie repouſſant contre mont luy fit donner ſi fort d<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>cul contre le viſage de la Lune, qu'il luy a fait auſſi plat qu'vn fromage de Milan.</p>
+            <p n="43">
+               <pb n="75" facs="tcp:105398:43"/>
+               <label>XLIII.</label> ON dit qu' Hercules a delpucellé cent ſilles en vne nuict. Mais moy plus courageux que luy paillard, en cinq heureres de temps i'ay fait cent Hercules.</p>
+            <p n="44">
+               <label>XLIV.</label> MArs porté d'vne vaine preſomption, a<g ref="char:EOLhyphen"/>yant <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>u la hardieſſe de s'attribuer à ma preſence vne gloire que ma veleur s'eſt legiti<g ref="char:EOLhyphen"/>mement acquiſe, m'a faſché de telle ſorte que tout en celere je l'ay pris par le pied &amp; le jet<g ref="char:EOLhyphen"/>tant en haut je luy ay donné vn mouvement circulaire avec tant de violence qu'aupara<g ref="char:EOLhyphen"/>vant de tomber, il a fait plus de t<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>rsend'air que le Ciel n'en a fait depuis le premier jour de ſa creation.</p>
+            <p n="45">
+               <pb n="77" facs="tcp:105398:44"/>
+               <label>XLIV.</label> IEfay voeu à Dieu qu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> jeſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>is ſans ſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> &amp; à demy deſeſpere de telle maniere, que je né voudrois pas maintenant trouver homme qui me demandaſt la paix, toute ma glorie ſe<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oit de tronver quelqv'n ſur lequel je p<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uſſe deſ<g ref="char:EOLhyphen"/>charger ma cholere &amp; me venger, p<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>is que je ne l'ay peu faire contre ceux qui me l'ont occa<g ref="char:EOLhyphen"/>ſionnée à cauſe de leur legere &amp; baſtive ſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ite, laçoit que c'eſt la verité que je ne m<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſuit iamais monſtré pouvoir beaucoup contre ceux qui peuvent peu.</p>
+            <p n="46">
+               <pb n="79" facs="tcp:105398:45"/>
+               <label>XLV.</label> IE ne ſçay quel genre de mort je dois choiſtr pour punir deux vilains qui m'ont oeilladé ce jourd'huy en la rue de mauvais oeil de tra<g ref="char:EOLhyphen"/>vers: je deſire de regarde<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> mon repertoire où i'ay remarqué ſept cens ſoixante &amp; cinq eſpe<g ref="char:EOLhyphen"/>ces, pour voir laquelle maniere me ſera plus a<g ref="char:EOLhyphen"/>greable, iaçoit que celles dont i'vſe mainte<g ref="char:EOLhyphen"/>nant couſtumierement, &amp; qui me ſont ordi<g ref="char:EOLhyphen"/>naires aux mains ſoient coups d'eſpées ſans ſang, coups de plombe au d'eſpée, ou vn Re<g ref="char:EOLhyphen"/>vers induſtrieux &amp; ſubtil, les autres je les troüe comme vn crible à coups de poignard vne taille large, vne eſtocade dangereuſe, vn coup mortel, &amp; quelquefois je do<g ref="char:cmbAbbrStroke">̄</g>ne des coups de baſtons à celle fin que je laiſſe repoſer &amp; ſe reſiouyr mon eſpée.</p>
+            <p n="47">
+               <pb n="81" facs="tcp:105398:46"/>
+               <label>XLVI.</label> QV' eſt-ce qu' Aſie, Europe, Afrique, és monts Pyre<g ref="char:EOLhyphen"/>nees &amp; les Alpes, les vnes mi<g ref="char:EOLhyphen"/>ſes ſur les autres, ſept Dragons, huit Elephans, dix Tigres, vingt deux Lyons &amp; ſoixante cinq Taureux? Cela pour moy n'eſt rien.</p>
+            <p n="48">
+               <pb n="83" facs="tcp:105398:47"/>
+               <label>XLVII.</label> MOn Cordonnior vn matin me chau<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap>a<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap>, vn de mes ſouliers ſe trouva trop eſtr<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>it, je frappé avec c<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>luy tel coup en terre, que i'ou<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rois la terr<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> juſques aux enfers, Belz<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>buth, Satan, Pluton, Bar<g ref="char:EOLhyphen"/>rabas, Seigneurs &amp; Princes des tenebrenſes obſcu<g ref="char:EOLhyphen"/>ritez, demeurerent beaucoup eſtonnez: le grand Cerbere donna de grand cris &amp; abois: Proſerpine <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>arrachoit les cheveux, pleurant amorement pour <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> qu'elle voyoit ſon royaume tenebreux recevoir quel<g ref="char:EOLhyphen"/>que clarté. Les petits diabl<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ti<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s ſe cachoient qui de<g ref="char:EOLhyphen"/>cà qui dela, &amp; quelques vns s'enfuirent leſquels font demeurez depuis ce temps la par l'air, &amp; d'au<g ref="char:EOLhyphen"/>tres par la terre tourmentant quelques perſonnes, comme on voit aduenir par chacun iour en <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> monde.</p>
+            <p n="49">
+               <pb n="85" facs="tcp:105398:48"/>
+               <label>XLVIII.</label> MAdame vous pouvez à iuſte tiltre laiſſer ce nom de Dame Beatrix, &amp; vous ap<g ref="char:EOLhyphen"/>peller d'ores en avant Imperatrix ou Emperi<g ref="char:EOLhyphen"/>ere, Royne, Princeſſe, Marquiſe, Co<g ref="char:cmbAbbrStroke">̄</g>teſſe, Da<g ref="char:EOLhyphen"/>me &amp; Damoiſ lle, puis que ces deux colomnes d'Hercules qui ſouſtiennent tout le monde ſont tant à voſtre ſervice, je veux dire ce corps Caſtillan rempli d'vne abo<g ref="char:cmbAbbrStroke">̄</g>dance de courageux gens <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>'armes, qui ſont ceſte poiſtrine &amp; ce bras plus fort que la Tour de Babylone, &amp; principalement quand il eſt aidé de ceſte re<g ref="char:EOLhyphen"/>doutée eſpé<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>: pon<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ce que le feu du fil d'icelle penetre &amp; ſurmonte e<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſplendeur les rayons lumineux du Soleil.</p>
+            <p n="50">
+               <pb n="87" facs="tcp:105398:49"/>
+               <label>XLIX.</label> IE ſuis ſeul ſans crainte, menaçant le Ciel &amp; l'Air, le Feu &amp; la Terre, Iupiter &amp; l' Enfer; in ſques aux Elemens, je deſire leur faire la guerre: je ne crains point la tem<g ref="char:EOLhyphen"/>peſte, la foudre, le tonnetre &amp; l'eſclair. Et deva<g ref="char:cmbAbbrStroke">̄</g>t qu'il ſoit peu de temps je me veux faire Seigneur du Ciel, de la terre &amp; l'Enfer: je le veux &amp; je le peux, car mes forces ſont de<g ref="char:EOLhyphen"/>meſurées pour ce faire.</p>
+            <p n="51">
+               <pb n="88" facs="tcp:105398:50"/>
+               <label>L.</label> IEſuis vieil à tout travail, &amp; je ſuis nouveau à ſouffrir moy lequel depuis moy enfance &amp; des le temps que s'eſtois en<g ref="char:EOLhyphen"/>cor au berceau Venus ià accou<g ref="char:EOLhyphen"/>ſtume teter en lieu de laict des feux, des ſouſpirs &amp; des larmes.</p>
+         </div>
+         <div type="poem">
+            <pb n="89" facs="tcp:105398:50"/>
+            <head>The Moſt Valiant Sir <hi>Fre<g ref="char:EOLhyphen"/>derick Fight-All's</hi> Panagy<g ref="char:EOLhyphen"/>rick on himſelf.</head>
+            <l>I Never yet could find that daring <hi>He,</hi>
+            </l>
+            <l>Durſt whiſper, any yet hath conquerd me.</l>
+            <l>I've fought the Champions of the Earth all round;</l>
+            <l>And either ſlew, or made them quit their ground.</l>
+            <l>From <hi>Pole</hi> to <hi>Pole</hi> ſuch mighty things I've done,</l>
+            <l>That from all <hi>Heroes,</hi> I their Glory won.</l>
+            <l>So that the wonder of Mankind I'me ſtil'd,</l>
+            <l>And chief in <hi>Valours Regiſter</hi> I'me fil'd.</l>
+            <pb n="90" facs="tcp:105398:51"/>
+            <l>Yet ſtill I muſt Act more, that labr'ing <hi>Fame,</hi>
+            </l>
+            <l>May Reel, and Tire, and Sink, to bear my Name.</l>
+            <l>And when ten thouſand miracles I've done,</l>
+            <l>Out ſhining far the luſtre of the <hi>Sun;</hi>
+            </l>
+            <l>When by the envy of the <hi>Gods</hi> Ime whirl'd,</l>
+            <l>Raviſht, and ſnatcht, up to the higher World;</l>
+            <l>When <hi>Heav'n</hi> is of my company grown proud;</l>
+            <l>You ſhall behold me perching on a Cloud.</l>
+            <l>Could <hi>I</hi> to fearful Man my Soul infuſe,</l>
+            <l>'Twould teach him how aright his Sword to uſe,</l>
+            <l>How he ſhould take in <hi>Cittadels,</hi> and <hi>Towns,</hi>
+            </l>
+            <l>
+               <hi>Kingdoms</hi> and <hi>Nations</hi> conquer, raviſh Crowns,</l>
+            <l>Raiſe Seiges, vanquiſh enemies; and all</l>
+            <l>Thoſe deeds in Valours ſacred Liſt do fall.</l>
+            <l>Sometimes a ſingle Kingdomes part <hi>I</hi> take,</l>
+            <l>Then with my looks I make the reſt to quake,</l>
+            <l>Where e're I go, my preſence conqueſt brings,</l>
+            <pb n="91" facs="tcp:105398:51"/>
+            <l>My ſingle hand can ſway the fate of Kings.</l>
+            <l>I've Enſigns ſnatcht oft from an Armies head,</l>
+            <l>And at my Feet laid proſtrate Gyants dead.</l>
+            <l>Out Hector'd Champions, and out foam'd wild Bores,</l>
+            <l>Out bluſter'd billows, breaking on the ſhores.</l>
+            <l>Out fought <hi>Briareus,</hi> with his hundred hands;</l>
+            <l>Out walk't the Tygers on the <hi>Arabian</hi> Sands.</l>
+            <l>Out ſtar'd the Face of death in Blood and Wars.</l>
+            <l>Out ſhin'd the <hi>Moon,</hi> out ſhot the falling Stars.</l>
+            <l>Out lightned Lightning, and out thunder'd Thunder;</l>
+            <l>Gut did great <hi>Mars</hi> in Field, and outvy'd Wonder.</l>
+            <l>Aſtoniſht Ages from theſe deeds ſhall learn.</l>
+            <l>Which way <hi>I</hi> move, that way the World ſhall turn.</l>
+            <pb n="92" facs="tcp:105398:52"/>
+            <l>If y'are with this not ſatiſfied enough,</l>
+            <l>I'le of my Valour give you urcher p<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oof.</l>
+            <l>I by an Hoſt ſurrounded was in fi l<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>,</l>
+            <l>Whoſe <hi>Gen'ral</hi> cry'd, fight not ſt<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ut man, but yeild.</l>
+            <l>I, daunted not, ruſht in, and with one ſwing.</l>
+            <l>Before my Feet, I laid his breathleſs <hi>King,</hi>
+            </l>
+            <l>At which a Neighb'ring <hi>Prince</hi> his quarrel took;</l>
+            <l>From his broad Shoulders, his proud head <hi>I</hi> ſtruck,</l>
+            <l>So quick, the head after it fell it curſt.</l>
+            <l>The next advanc'd whoſe Fate was like the firſt.</l>
+            <l>Him <hi>I</hi> beheaded ſo moſt vig'rouſly,</l>
+            <l>That with the force, his falli<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>g head kill'd three.</l>
+            <l>Then being beſet with an united pow'r,</l>
+            <l>With my long Sword n<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>xt paſs, I thruſt through four.</l>
+            <l>VVith Carkaſſes I made long Lanes, and to be ſhort,</l>
+            <l>In one hours ſpace, I made this bloody ſport.</l>
+            <pb n="93" facs="tcp:105398:52"/>
+            <l>Here ſcatter'd Swords, there Woods of Lances ſtood;</l>
+            <l>Here heaps of bodies lay, there ſtreams of blood.</l>
+            <l>With open mouth there lay a gaſping head;</l>
+            <l>As if it thirſted for the blood it ſhed.</l>
+            <l>Here a lopt head cut capers, as if 'twoud</l>
+            <l>Have danc't up to the Shoulders, where it ſtood.</l>
+            <l>There lay diſmembred arms, in their own gore,</l>
+            <l>Which ſtretcht, and graſpt to reach the Swords they bore:</l>
+            <l>The object look'd as if it had expreſt</l>
+            <l>
+               <hi>A</hi> thouſand Victims offer'd by a Prieſt.</l>
+            <l>VVhen I'de done all, and heaps on heaps compil'd,</l>
+            <l>I fairly turn'd about my ſelf, and ſmil'd.</l>
+            <l>How ill theſe mortals manag'd their com<g ref="char:EOLhyphen"/>mand,</l>
+            <l>Although all Hero's nothing in my hand.</l>
+            <l>Thus I do never ſtoop to little things,</l>
+            <l>I ſeldome vanquiſh any under Kings.</l>
+            <l>VVhen none can kill me, <hi>I</hi> my ſelf muſt doom,</l>
+            <pb n="94" facs="tcp:105398:53"/>
+            <l>And call upon the Gods to make me room.</l>
+            <l>Thus when I pleaſe I mortal blood can ſpill;</l>
+            <l>Yet know, that I can cure; as well as kill.</l>
+            <l>Diſmembred Trunks (which welter in their gore)</l>
+            <l>That hand them lopt can them again re<g ref="char:EOLhyphen"/>ſtore.</l>
+            <l>Quack <hi>Aeſculapius</hi> of Cures may boaſt,</l>
+            <l>And in that thing, a very <hi>Knight o'th Poſt.</hi>
+            </l>
+            <l>Conf<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſt, <hi>He</hi> did ſome petty things, what then?</l>
+            <l>But I of mortals, make immortal men.</l>
+            <l>Did <hi>He</hi> now live, <hi>He</hi> might imboldned be</l>
+            <l>By his great skill, as to compare with me.</l>
+            <l>But <hi>I</hi> de convince the <hi>Slave,</hi> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>is only I</l>
+            <l>Have pow'r to guide a Monarchs Deſtiny:</l>
+            <l>Such proud <hi>Quack ſalvers</hi> muſt not be in<g ref="char:EOLhyphen"/>dur'd,</l>
+            <l>Who never ſaw the wounds which <hi>I</hi> have cur'd.</l>
+            <l>My hand the rule of humane Fate hath ſwai'd,</l>
+            <l>Cur'd wounds as mortal, as my Sword hath made.</l>
+            <pb n="95" facs="tcp:105398:53"/>
+            <l>My hand mens tott'ring Fabricks can er<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ct,</l>
+            <l>And be the leſſer worlds great <hi>Architect.</hi>
+            </l>
+            <l>I with my Sword have often digg'd a grave,</l>
+            <l>And from its fatal brink, as oft did ſave.</l>
+            <l>
+               <hi>Al-Man-Sirs Art</hi> hath <hi>Natures pow'r</hi> with<g ref="char:EOLhyphen"/>ſtood;</l>
+            <l>The old let out, I have infus'd new blood.</l>
+            <l>Nay when mens looks do wear, more hor<g ref="char:EOLhyphen"/>rid forms,</l>
+            <l>Then the <hi>Grimaces</hi> of a Sea in Storms,</l>
+            <l>
+               <hi>I</hi> have made horrour, pains, and torture ceaſe:</l>
+            <l>'Twixt <hi>Death,</hi> and ſickly man, I've made a peace.</l>
+            <l>Decrepit <hi>Nature,</hi> bedrid, at my ſight,</l>
+            <l>Hath rows'd, and roſe, and walk't, and ſtood upright.</l>
+            <l>My pow'r hath made declining lives ſtand fixt,</l>
+            <l>And with new Heat, hath Cooling Vitals mixt.</l>
+            <l>Nay more, when <hi>Death</hi> hath his bold en<g ref="char:EOLhyphen"/>trance ſtole,</l>
+            <l>And given defiance to a ſtrugling Soul,</l>
+            <pb n="96" facs="tcp:105398:54"/>
+            <l>I've made fierce <hi>Death</hi> look pale at my ap<g ref="char:EOLhyphen"/>proach,</l>
+            <l>And trembling, not dare ſtrike, where I dare touch.</l>
+            <l>'Tis no great thing to do, if true that all</l>
+            <l>The pow'rs of art, within my circuit fall.</l>
+            <l>So that o're mortal men <hi>I</hi> have this odds,</l>
+            <l>Cure wounds, not only made by man, but Gods.</l>
+            <l>In ſhort, my art ſuch wonders did afford,</l>
+            <l>
+               <hi>I</hi> have loſt a ms, eyes, heads, nay lives re<g ref="char:EOLhyphen"/>ſto<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>'d.</l>
+            <l>Theſe and ten thouſand ſuch <hi>I</hi>'ve done, all true,</l>
+            <l>Yet have not ſpoken half, what I can do.</l>
+         </div>
+         <div type="questions">
+            <p>I Now exp<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ct, that ſome cowardly Curs w<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ll bark at theſe my unparalel'd, and ſe<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>mingly i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>credible acts, ſuch whoſe va<g ref="char:EOLhyphen"/>lour lyes in their tongues, not hands: by o hers who dare not kill otherwiſe, than with Pen, Ink, and Paper. Let theſe boaſt<g ref="char:EOLhyphen"/>ing Mounte banks, firſt reſolve me theſe
+<pb n="97" facs="tcp:105398:54"/> Queſtions, or they are not like to live in our thou<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hts.</p>
+            <list>
+               <item>1. Why one poor Platonick Idea, flut<g ref="char:EOLhyphen"/>tering upon the O<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>fice of the Chaos, ſhould chac<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, or drive away the in<g ref="char:EOLhyphen"/>vincible Squadrons of <hi>Democratical Atoms?</hi>
+               </item>
+               <item>2. Why that one man ſhould be like the Sun, wrapt in a tear of Snow, and a<g ref="char:EOLhyphen"/>nother to bloom like a Northern blaſt gu lt o're with Thunder?</item>
+               <item>3. And laſtly, Why your warbling Sa<g ref="char:EOLhyphen"/>ty<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, clad in dew, whoſe Zodiack toils in pa<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ched ſteel, cleft like a living Cloud, Loves arrow-field, ſhould confront a Sable Emerauld aſunder?</item>
+            </list>
+         </div>
+         <div type="poem">
+            <head>To thoſe impudent Mi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>midons, who dare compare with me, <hi>I</hi> ſhall propoſe them this task to perform, without which, they ſhare in no part of our eſtimation.</head>
+            <l>WIth a ſmall ſwitch the Sea divide;</l>
+            <l>And with one whiſtle ſtop the Tide.</l>
+            <pb n="98" facs="tcp:105398:55"/>
+            <l>Ketch the wild Winds within thy fiſt,</l>
+            <l>And let them blow, but when thou liſt.</l>
+            <l>Or creep to <hi>Neptunes</hi> watry bed,</l>
+            <l>And force a <hi>Mermaids</hi> Maiden-head.</l>
+            <l>Then ſoar more high, and fetch me down</l>
+            <l>Fair <hi>Ariadny's Starry Crown.</hi>
+            </l>
+            <l>Or bring me <hi>Berenices</hi> Hair,</l>
+            <l>A Perriwigg for me to wear.</l>
+            <l>Make <hi>Mars</hi> and <hi>Saturns</hi> aſpects mild;</l>
+            <l>And get the <hi>Virgin Star</hi> with Child.</l>
+            <l>Go Ring the ſnout of the <hi>North Bear;</hi>
+            </l>
+            <l>Then ſit in <hi>Caſſeopeia's Chair,</hi>
+            </l>
+            <l>Or if thou haſt that daring Soul?</l>
+            <l>Go whip the <hi>Bear</hi> about the <hi>Pole.</hi>
+            </l>
+            <l>If thou canſt do all theſe, I can't deny,</l>
+            <l>But thou in time may be as ſtout as I.</l>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:105398:55"/>
+         </div>
+      </body>
+   </text>
+</TEI>
